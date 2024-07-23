@@ -1,0 +1,82 @@
+# The following defaults are set by GitHub, which you are free to override:
+# https://help.github.com/articles/configuring-jekyll
+github: [metadata]
+encoding: UTF-8
+kramdown:
+    input: GFM
+    hard_wrap: false
+future: true
+jailed: false
+theme: jekyll-theme-primer
+gfm_quirks: paragraph_end
+
+# -----------------------------------------------------------------------------
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+kramdown:
+    auto_ids: true
+
+title: "Catalogus BAG 2018"
+tagline: "Systeembeschrijving van de Basisregistratie Adressen en Gebouwen"
+description: "Catalogus BAG 2018:\nSysteembeschrijving van de Basisregistratie Adressen en Gebouwen"
+publisher: "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties"
+
+# Label and link of first menu item at bottom of sidebar:
+link-label-1: "Praktijkhandleiding BAG 2018"
+link-url-1: "https://imbag.github.io/praktijkhandleiding"
+
+# Label and link of second menu item at bottom of sidebar:
+link-label-2: "BAG-viewer"
+link-url-2: "https://bagviewer.kadaster.nl"
+
+# Label and link of third menu item at bottom of sidebar:
+link-label-3: ""
+link-url-3: ""
+
+# Label and link of fourth menu item at bottom of sidebar:
+link-label-4: ""
+link-url-4: ""
+
+# Label and link of fifth menu item at bottom of sidebar:
+link-label-5: "Druk af…"
+link-url-5: "https://www.geobasisregistraties.nl/documenten/publicatie/2018/03/12/catalogus-2018"
+
+# Color scheme. Options: customized, red, orange, magenta, cyan, blue, brown
+color-scheme: customized
+
+# Comment out in order to load pages with the sidebar closed:
+# open-sidebar: true
+
+baseurl: /catalogus
+
+# https://kramdown.gettalong.org/options.html
+# https://stackoverflow.com/questions/25596792/how-do-i-turn-off-smart-quotes-in-jekyll
+kramdown:
+#   smart_quotes:  sbquo,rsquo,bdquo,rdquo
+    smart_quotes:  apos,apos,quot,quot
+    input:         GFM
+    hard_wrap:     false
+    footnote_nr:   1
+
+timezone: Europe/Amsterdam
+
+collections:
+    tekstfragmenten:
+        output: false
+        permalink: /:collection/:path
+    hoofdstukken:
+        output: true
+        permalink: /:collection/:path
+
+# https://github.com/benbalter/jekyll-relative-links
+relative_links:
+    enabled: true
+    collections: true
+
+# Exclusions from the final site
+exclude:
+  - optional
+  - vendor

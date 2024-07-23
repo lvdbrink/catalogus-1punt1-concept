@@ -1,0 +1,28 @@
+<!-- https://creativemarket.com/blog/the-missing-guide-to-font-formats -->
+<!-- https://www.sitepoint.com/how-to-use-cross-browser-web-fonts-part-1 -->
+<!-- https://stackoverflow.com/questions/12812441/how-do-i-use-woff-fonts-for-my-website -->
+
+<style type="text/css">
+
+    @font-face {
+        font-family: "CustomFont";
+        src: url("{{ site.baseurl }}{% link /assets/fonts/ROsanswebtextregular.woff %}") format("opentype");
+        font-style: normal;
+        font-weight: normal
+    }
+
+    @font-face {
+        font-family: "CustomFont";
+        src: url("{{ site.baseurl }}{% link /assets/fonts/ROsanswebtextitalic.woff %}") format("opentype");
+        font-style: italic;
+        font-weight: normal
+    }
+
+    @font-face {
+        font-family: "CustomFont";
+        src: url("{{ site.baseurl }}{% link /assets/fonts/ROsanswebtextbold.woff %}") format("opentype");
+        font-style: normal;
+        font-weight: bold
+    }
+
+</style>

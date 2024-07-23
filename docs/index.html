@@ -1,0 +1,52 @@
+---
+layout: default
+title: Catalogus BAG 2018
+---
+
+<div class="introduction">
+    <p>
+        Deze website bevat de onlineversie van de Catalogus BAG 2018 zoals de minister van Binnenlandse Zaken en Koninkrijksrelaties deze op 29 maart 2018 heeft
+        <a href="http://wetten.overheid.nl/BWBR0025961">
+            vastgesteld
+        </a>
+        .
+    </p>
+</div>
+
+<br/>
+
+<div class="toc">
+    <h1>
+        Inhoudsopgave
+    </h1>
+
+<!-- TOON PER CATEGORY WELKE ARTIKELEN ERMEE ZIJN GEMARKEERD
+ -   Voorwaarde: bij elk artikel staat precies een category vermeld
+ -   https://stackoverflow.com/questions/28100220/jekyll-display-collection-by-category
+ -   https://stackoverflow.com/questions/20872861/jekyll-display-posts-by-category
+ -   https://gist.github.com/Phlow/57eb457898e4ac4c4a20
+-->
+
+    {% assign hoofdstukken = site.hoofdstukken | sort: 'lijstvolgorde' %}
+    <ul class="texts">
+        {% for i in hoofdstukken %}
+            {% if i.title | slugify: 'latin' %}
+                <li class="text-title">
+                    <a href="{{ site.baseurl }}{{ i.url }}" class="metalijst-titel">
+                        {{ i.title }}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+<div class="introduction">
+    <p>
+        Dit werk valt onder de licentie
+        <a href="https://creativecommons.org/licenses/by-nd/3.0/nl">
+            Creative Commons Naamsvermelding-GeenAfgeleideWerken 3.0 Nederland
+        </a>
+        .
+    </p>
+    <img src="assets/by-nd.svg" alt="CC BY-ND 3.0 NL">
+</div>

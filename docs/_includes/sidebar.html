@@ -1,0 +1,67 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"{% if site.open-sidebar == true %} checked{% endif %}>
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <img src="{{ site.baseurl }}{% link /assets/open-graph.png %}">
+    <p>{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Ga naar start</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of items in collection "hoofdstukken"
+      with `layout: page` in the front-matter.
+    {% endcomment %}
+
+    {% assign pages_list = site.hoofdstukken | sort:"lijstvolgorde" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item sidebar-nav-item-toc{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#" data-proofer-ignore>Ga terug naar boven</a>
+
+    {% comment %}
+      The code below dynamically generates a sidebar nav of pages with
+      `layout: page` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <!-- The code below is used for manually entered links  -->
+
+        {% if site.link-label-1 and site.link-label-1 != "" and site.link-url-1 and site.link-url-1 != "" %}
+            <a class="sidebar-nav-item" href="{{site.link-url-1}}" target="_blank">{{site.link-label-1}}</a>
+        {% endif %}
+        {% if site.link-label-2 and site.link-label-2 != "" and site.link-url-2 and site.link-url-2 != "" %}
+            <a class="sidebar-nav-item" href="{{site.link-url-2}}" target="_blank">{{site.link-label-2}}</a>
+        {% endif %}
+        {% if site.link-label-3 and site.link-label-3 != "" and site.link-url-3 and site.link-url-3 != "" %}
+            <a class="sidebar-nav-item" href="{{site.link-url-3}}" target="_blank">{{site.link-label-3}}</a>
+        {% endif %}
+        {% if site.link-label-4 and site.link-label-4 != "" and site.link-url-4 and site.link-url-4 != "" %}
+            <a class="sidebar-nav-item" href="{{site.link-url-4}}" target="_blank">{{site.link-label-4}}</a>
+        {% endif %}
+        {% if site.link-label-5 and site.link-label-5 != "" and site.link-url-5 and site.link-url-5 != "" %}
+            <a class="sidebar-nav-item" href="{{site.link-url-5}}" target="_blank">{{site.link-label-5}}</a>
+        {% endif %}
+  </nav>
+
+  <div class="sidebar-item">
+    <p><img src="{{ site.baseurl }}{% link /assets/by-nd.svg %}" alt="CC BY-ND 3.0 NL"></p>
+  </div>
+</div>
