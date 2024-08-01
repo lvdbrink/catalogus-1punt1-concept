@@ -171,7 +171,7 @@ _Tabel 7.1.6.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
 | **Identificerend** | Nee |
 
@@ -341,7 +341,7 @@ _Tabel 7.2.6.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
 | **Identificerend** | Nee |
 
@@ -613,7 +613,7 @@ _Tabel 7.3.9.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
 | **Identificerend** | Nee |
 
@@ -1051,7 +1051,7 @@ _Tabel 7.6.5.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
 | **Identificerend** | Nee |
 
@@ -1197,7 +1197,7 @@ _Tabel 7.7.5.a: Beschrijving van het attribuut documentdatum_
 | **Kardinaliteit** | \[1\] |
 | **Authentiek** | Basisgegeven |
 | **Indicatie in onderzoek** | Nee |
-| **Toelichting** | In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
+| **Toelichting** | Alleen een datum die gelijk is aan of die is gelegen voor de datum van het opnemen of muteren van het betreffende gegeven kan in de registratie worden opgenomen. In het geval het brondocument een besluit van een bestuursorgaan betreft, dan is de datum van het brondocument de datum waarop het besluit is genomen. |
 | **Mogelijk geen waarde** | Nee |
 | **Identificerend** | Nee |
 
