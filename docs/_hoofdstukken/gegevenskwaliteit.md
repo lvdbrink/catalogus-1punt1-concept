@@ -64,7 +64,7 @@ Alle objecten die voldoen aan de definitie van een van de BAG-objecttypen, moete
 
 Objecten die op grond van een brondocument bekend zijn bij de gemeente, worden opgenomen op basis van dat brondocument.
 
-Objecten die in de werkelijkheid bestaan maar waarvan geen brondocument beschikbaar is, worden opgenomen op basis van een ambtelijke verklaring.
+Objecten die in de werkelijkheid bestaan maar waarvan geen brondocument beschikbaar is, worden opgenomen op basis van een document van constatering.
 
 Een object wordt beëindigd in de BAG als:
 
