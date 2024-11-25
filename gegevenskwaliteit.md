@@ -1,4 +1,4 @@
-# 4 Gegevenskwaliteit
+# Gegevenskwaliteit
 
 De kwaliteit van de gegevens die in de BAG zijn opgenomen, dient te voldoen aan de gestelde eisen.
 
@@ -31,7 +31,7 @@ Deze kwaliteitscriteria zijn uitgewerkt in kwaliteitseisen. De vermelde waarden 
 
 [^4-i]: Wet basisregistraties adressen en gebouwen, artikel 35, lid 2: "Een bestuursorgaan kan een ander gegeven gebruiken dan een krachtens deze wet beschikbaar authentiek gegeven, ingeval: a. bij het desbetreffende authentieke gegeven de aanduiding als bedoeld in artikel 19, vierde lid, onderdeel a is geplaatst; b. bij het desbetreffende authentieke gegeven de aantekening «in onderzoek» is geplaatst; c. het met betrekking tot het desbetreffende authentieke gegeven een melding heeft gedaan als bedoeld in artikel 37; d. het door toepassing van het eerste lid zijn publiekrechtelijke taak niet naar behoren zou kunnen vervullen, of e. bij wettelijk voorschrift anders is bepaald dan in het eerste lid." [http://wetten.overheid.nl/jci1.3:c:BWBR0023466](http://wetten.overheid.nl/jci1.3:c:BWBR0023466#Hoofdstuk5_Paragraaf2_Artikel35) en [https://zoek.officielebekendmakingen.nl/stb-2017-60.html](https://zoek.officielebekendmakingen.nl/stb-2017-60.html)
 
-## 4.1 Volledigheid
+## Volledigheid
 
 Alle objecten die voldoen aan de definitie van een van de BAG-objecttypen, moeten worden geregistreerd in de BAG.
 
@@ -46,7 +46,7 @@ Een object wordt beëindigd in de BAG als:
 
 Objecten waarvan het feitelijk bestaan na de invoering van de Wet basisregistratie adressen en gebouwen per 1 juli 2009 volgens een brondocument is geëindigd, zijn als zodanig herkenbaar opgenomen in de registratie.
 
-## 4.2 Compleetheid
+## Compleetheid
 
 Alle te registreren kenmerken (attributen) van de geregistreerde objecten zijn opgenomen in de registratie (zie [hoofdstuk 6](modelbeschrijving.md#6-objecttypen)).
 
@@ -54,7 +54,7 @@ Alle in de BAG opgenomen gegevens zijn voorzien van een waarde, indien in deze c
 
 De waarde van elk in de BAG opgenomen gegeven moet passen binnen de domeinwaarde die het betreffende gegeven overeenkomstig deze catalogus kan aannemen (zie [hoofdstuk 8](modelbeschrijving.md#8-domeinwaarden)).
 
-## 4.3 Juistheid
+## Juistheid
 
 Alle in de registratie verwerkte wijzigingen komen overeen met hetgeen daarover in het onderliggende brondocument is opgenomen.
 
@@ -64,7 +64,7 @@ Bij elke versie van een object in de BAG komt de waarde van een gewijzigd gegeve
 
 De in de BAG opgenomen gegevens die volgens de in deze catalogus opgenomen regels voor die attribuutsoort aan een nauwkeurigheidseis moeten voldoen (zie dit [hoofdstuk 4](#4-gegevenskwaliteit) en [hoofdstuk 7](modelbeschrijving.md#7-attributen--relaties)), kennen een nauwkeurigheid zoals genoemd in die nauwkeurigheidseisen.
 
-## 4.4 Actualiteit
+## Actualiteit
 
 Actualiteit is de mate waarin de gegevens binnen een gedefinieerd tijdsinterval overeenstemmen met de werkelijke situatie. Voor de BAG betekent dit dat de actualiteit betrekking heeft op de administratieve werkelijkheid en de tijdige verwerking van brondocumenten.
 
@@ -77,7 +77,7 @@ Binnen vier werkdagen na het nemen van een besluit (oftewel de datum van het bro
 
 Het is niet meer mogelijk de gegevens uit een eerder besluit door te voeren als een opvolgend besluit c.q. brondocument reeds is verwerkt in de registratie. Er wordt dan een verklaring opgesteld en vervolgens wordt de mutatie doorgevoerd met de besluitdatum van de verklaring als datum begin geldigheid en als documentdatum.
 
-## 4.5 Positionele nauwkeurigheid
+## Positionele nauwkeurigheid
 
 Bij oppervlakten en geometrie is sprake van bepaalde meetnauwkeurigheden en moet men rekening houden met bepaalde toleranties. Voor dit soort gegevens gelden dan ook toleranties ten aanzien van de exactheid van de waarden die het gegeven kan aannemen.
 
@@ -102,7 +102,7 @@ De punten in het veld dienen te zijn ingemeten en in het bestand te zijn verwerk
 
 [^4-5-ii]: Handleiding voor de Technische werkzaamheden van het Kadaster (1996), ISBN 90-803078-1-5.
 
-## 4.6 Oppervlaktenauwkeurigheid
+## Oppervlaktenauwkeurigheid
 
 Ten aanzien van de nauwkeurigheid van de oppervlakte is de maximaal toegestane afwijking in de oppervlakte van een verblijfsobject gesteld op 1,15 maal de wortel van de oppervlakte, met dien verstande dat bij objecten met een oppervlakte van 1 m² een toegestane afwijking geldt van 1 m² (100%).
 
@@ -110,7 +110,7 @@ De exacte wijze van bepalen van de gebruiksoppervlakte wordt beschreven in NEN 2
 
 Anders dan NEN 2580:2007 sluit de BAG niet-binnenruimten en gemeenschappelijke ruimten uit van de gebruiksoppervlakte.
 
-## 4.7 Tijd
+## Tijd
 
 De BAG hanteert de norm ISO 8601:2004 voor het beschrijven van tijdsaspecten. De notatie van de tijd is overeenkomstig de ISO-regelgeving: `jjjj-mm-ddTuu:mm:ss.sss`. De hoofdletter `T` wordt hierbij gebruikt om de datum- en tijdcomponent te scheiden. Bijvoorbeeld: `2016-04-01T12:34:56` betekent dus _1 april 2016 om 12 uur, 34 minuten en 56 seconden_.
 
@@ -120,7 +120,7 @@ De kwaliteit van de tijdbeschrijving wordt beschreven met drie aspecten, te wete
 - tijdconsistentie (zie [paragraaf 4.7.2](#472-tijdconsistentie));
 - tijdgeldigheid (zie [paragraaf 4.7.3](#473-tijdgeldigheid)).
 
-### 4.7.1 Tijdnauwkeurigheid
+### Tijdnauwkeurigheid
 
 Met tijdnauwkeurigheid wordt bedoeld de juistheid van de tijdswaarneming. Dit geeft de foutmarge aan in de tijdswaarneming.
 
@@ -141,11 +141,11 @@ Ten aanzien van de nauwkeurigheid van bouwjaren worden tolerantiegrenzen gehante
 
 Hierbij wordt opgemerkt dat het in uitzonderlijke gevallen (vooral bij zeer oude panden) onmogelijk kan blijken te zijn om het bouwjaar binnen bovenstaande toleranties te bepalen. In die gevallen geldt "wat niet kan, kan niet" en wordt de beste schatting geregistreerd.
 
-### 4.7.2 Tijdconsistentie
+### Tijdconsistentie
 
 Op elk moment in de tijd moet het eenduidig helder zijn welke gegevens er geldig zijn. De BAG maakt hiervoor gebruik van materiële en formele historie (zie [paragraaf 3.7.2](#372-historie)). Dit betekent dat het in de registratie op elk moment in de formele historie eenduidig helder moet zijn wat de materiële historie is van een object. Binnen deze materiële historie moet het vervolgens eenduidig helder zijn vanaf wanneer en tot wanneer welke gegevens geldig zijn.
 
-### 4.7.3 Tijdgeldigheid
+### Tijdgeldigheid
 
 Tijdgeldigheid is de geldigheid van de BAG-gegevens overeenkomstig de geregistreerde datum en tijd in de registratie. Voor het ontstaan, wijzigen en vervallen van objecten geldt de Nederlandse wettelijke tijd[^4-7-3-i]. Daarbij wordt in de winter de wintertijd aangehouden, oftewel Midden-Europese Tijd, en in de zomer de zomertijd, oftewel Midden-Europese Zomertijd. Om dubbele tijdstippen te voorkomen mag in de nacht van zomertijd naar wintertijd (oftewel de nacht van zaterdag op zondag in het laatste weekend van oktober wanneer de klok een uur teruggaat[^4-7-3-ii]) geen tijdstip worden toegekend aan (versies van) objecten.
 
@@ -153,7 +153,7 @@ Tijdgeldigheid is de geldigheid van de BAG-gegevens overeenkomstig de geregistre
 
 [^4-7-3-ii]: Besluit van 5 december 2001 tot vaststelling van de zomertijd, artikel 2: "De Midden-Europese zomertijd vangt met ingang van 2002 aan op de laatste zondag van de maand maart om 02.00 uur en eindigt op de laatste zondag van de maand oktober om 03.00 uur." [http://wetten.overheid.nl/jci1.3:c:BWBR0013087](http://wetten.overheid.nl/jci1.3:c:BWBR0013087#Artikel2)
 
-## 4.8 Aanwijzingen van mogelijke onjuistheden in de registratie
+## Aanwijzingen van mogelijke onjuistheden in de registratie
 
 Ondanks het zorgvuldig registreren van alle gegevens die voortkomen uit de reguliere levenscyclus van objecten, kunnen er aanwijzingen zijn dat er onjuiste gegevens in de BAG zijn terechtgekomen dan wel daarin ontbreken. Dit soort aanwijzingen kan in elke fase van de levenscyclus naar voren komen en doorkruist feitelijk de normale levenscyclus van planvorming, bouw, gebruik en sloop dan wel vaststelling en intrekking (zie [paragraaf 3.6](#36-levenscyclus)).
 
