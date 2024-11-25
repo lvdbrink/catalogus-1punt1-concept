@@ -131,9 +131,12 @@ De BAG kent de volgende topologische relaties:
 
 De levenscyclus van een BAG-object beschrijft de opeenvolgende fasen in de ontwikkeling van een object. Hierbij dient de werkelijkheid zoveel mogelijk in de registratie zichtbaar te zijn. In de verschillende fasen zijn er situaties die aanleiding geven tot het wijzigen van de gegevens van het object. De fase van ontwikkeling waarin een BAG-object zich bevindt, wordt met een eigenschap _status_ bij het object geregistreerd.
 
-In de levenscyclus van een pand en verblijfsobject wordt in hoofdlijnen een onderscheid gemaakt tussen de vier fasen planvorming, bouw, gebruik en sloop. Binnen deze fasen kunnen verschillende statussen aan het object worden toegekend. De levenscyclus van een pand of een verblijfsobject volgt meestal een logische volgorde van statussen (zie figuur 3.6.a), maar fasen in de levenscyclus mogen ook worden overgeslagen.
+In de levenscyclus van een pand en verblijfsobject wordt in hoofdlijnen een onderscheid gemaakt tussen de vier fasen planvorming, bouw, gebruik en sloop. Binnen deze fasen kunnen verschillende statussen aan het object worden toegekend. De levenscyclus van een pand of een verblijfsobject volgt meestal een logische volgorde van statussen (zie [[[#statusvolgorde]]]), maar fasen in de levenscyclus mogen ook worden overgeslagen.
 
-![Figuur 3.6.a: De logische volgordelijkheid van de ontwikkeling en status van panden en verblijfsobjecten](afbeeldingen/statusvolgorde.svg)
+<figure id="statusvolgorde">
+    <img src="media/statusvolgorde.svg" />
+    <figcaption>De logische volgordelijkheid van de ontwikkeling en status van panden en verblijfsobjecten</figcaption>
+</figure>
 
 In de levenscycli van standplaatsen, ligplaatsen, openbare ruimten, nummeraanduidingen en woonplaatsen wordt onderscheid gemaakt tussen het benoemen en het intrekken van deze objecten.
 

@@ -38,11 +38,14 @@ BRONNEN [^10-51] [^10-52] [^10-53] [^10-54] [^10-55] [^10-56] [^10-57] [^10-57a]
 
 ## Afbakening van panden
 
-![Figuur 10.6.a: Beslisboom voor de afbakening van panden](afbeeldingen/pand.svg)
+<figure id="pnd">
+    <img src="media/pand.svg" />
+    <figcaption>Beslisboom voor de afbakening van panden</figcaption>
+</figure>
 
 ### START
 
-Voor deze beslisboom (zie figuur 10.6.a) deelt de bronhouder een bouwkundige constructie op in een of meer bouwwerken en toetst deze elk afzonderlijk aan de definitie van een pand.
+Voor deze beslisboom (zie [[[#pnd]]]) deelt de bronhouder een bouwkundige constructie op in een of meer bouwwerken en toetst deze elk afzonderlijk aan de definitie van een pand.
 
 BRONNEN [^10-60]
 
@@ -156,11 +159,14 @@ BRONNEN [^10-91] [^10-92] [^10-94] [^10-95] [^10-96] [^10-97]
 
 ## Afbakening van verblijfsobjecten
 
-![Figuur 10.8.a: Beslisboom voor de afbakening van verblijfsobjecten](afbeeldingen/verblijfsobject.svg)
+<figure id="vbo">
+    <img src="media/verblijfsobject.svg" />
+    <figcaption>Beslisboom voor de afbakening van verblijfsobjecten</figcaption>
+</figure>
 
 ### START
 
-Voor deze beslisboom (zie figuur 10.8.a) deelt de bronhouder een pand of een reeks van panden op in ruimten (niet te verwarren met bijvoorbeeld binnenruimten in de zin van NEN 2580:2007 of verblijfsruimten in de zin van het Bouwbesluit 2012) en toetst elk van deze ruimten afzonderlijk aan de definitie van een verblijfsobject.
+Voor deze beslisboom (zie [[[#vbo]]]) deelt de bronhouder een pand of een reeks van panden op in ruimten (niet te verwarren met bijvoorbeeld binnenruimten in de zin van NEN 2580:2007 of verblijfsruimten in de zin van het Bouwbesluit 2012) en toetst elk van deze ruimten afzonderlijk aan de definitie van een verblijfsobject.
 
 Bij het opdelen van panden in ruimten zoekt de bronhouder naar de kleinste eenheid van gebruik. Hierbij redeneert de bronhouder van binnen naar buiten. De binnenste eigen toegang bepaalt waar een verblijfsobject begint, mits de ruimte achter deze toegang voldoet aan de definitie van een verblijfsobject.
 

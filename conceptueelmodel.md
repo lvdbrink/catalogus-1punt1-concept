@@ -4,4 +4,8 @@ Figuur 5.1 geeft een vereenvoudigde weergave van de conceptuele modellering van 
 
 Objecttypen met een schuingedrukte naam zijn abstracte objecttypen. Deze komen niet als concreet object voor in een BAG-product.
 
-![Figuur 5.1: Conceptueel gegevensmodel met objecttypen, attributen en onderlinge relaties](afbeeldingen/conceptueelmodel.svg)
+<figure id="cm">
+    <img src="media/conceptueelmodel.svg" />
+    <figcaption>Conceptueel gegevensmodel met objecttypen, attributen en onderlinge relaties</figcaption>
+</figure>
+
