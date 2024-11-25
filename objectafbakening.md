@@ -1,12 +1,12 @@
-# 10 Objectafbakening
+# Objectafbakening
 
-## 10.1 Inleiding
+## Inleiding
 
 Om de Basisregistratie Adressen en Gebouwen te kunnen laten functioneren is het noodzakelijk om de landelijke uniformiteit van de inhoud van de basisregistratie te waarborgen. Hiervoor is het noodzakelijk om regels te geven voor het herkennen van objecten. Dit hoofdstuk van de catalogus geeft deze regels en gaat over het kijken naar de werkelijkheid door de bril van de BAG, met de bedoeling om de objecten te herkennen waarover de BAG gegevens bijhoudt. Terwijl dit hoofdstuk dus beschrijft over welke dingen uit de werkelijkheid de BAG gegevens bijhoudt, gaan de andere hoofdstukken vooral over welke gegevens dat zijn en hoe het bijhouden gebeurt.
 
 BRONNEN [^10-1] [^10-2] [^10-3] [^10-4] [^10-5] [^10-6] [^10-7] [^10-8]
 
-## 10.2 Toekenning van nummeraanduidingen
+## Toekenning van nummeraanduidingen
 
 Een verblijfsobject, standplaats of ligplaats heeft een nummeraanduiding voor het hoofdadres en kan een of meer nummeraanduidingen voor nevenadressen hebben. Een nevenadres mag alleen worden toegekend wanneer er meerdere relevante toegangen zijn en een toegang een wezenlijke betekenis heeft bij het aanduiden van het object, zoals een leveranciersingang.
 
@@ -14,7 +14,7 @@ Een nevenadres is een eigenschap van het geheel van hetzelfde verblijfsobject of
 
 BRONNEN [^10-9] [^10-10] [^10-15] [^10-16] [^10-17] [^10-18] [^10-19] [^10-20] [^10-21] [^10-22] [^10-23] [^10-24] [^10-25] [^10-26] [^10-27]
 
-## 10.3 Vaststelling van openbare ruimten
+## Vaststelling van openbare ruimten
 
 De vaststelling van een openbare ruimte volgt uit de formele aanwijzing van de openbare ruimte door het bevoegde gemeentelijke orgaan.
 
@@ -22,13 +22,13 @@ Als een nummeraanduiding is gelegen aan een openbare ruimte in het buitenland, r
 
 BRONNEN [^10-28] [^10-29] [^10-31] [^10-32] [^10-33] [^10-34] [^10-35] [^10-36]
 
-## 10.4 Indeling in woonplaatsen
+## Indeling in woonplaatsen
 
 De indeling in woonplaatsen volgt uit de formele aanwijzing van woonplaatsen door het bevoegde gemeentelijke orgaan.
 
 BRONNEN [^10-39] [^10-40] [^10-41] [^10-43] [^10-44] [^10-45] [^10-46] [^10-47] [^10-48]
 
-## 10.5 Afbakening van ligplaatsen
+## Afbakening van ligplaatsen
 
 De afbakening van een ligplaats volgt uit de formele aanwijzing van de ligplaats door het bevoegde gemeentelijke orgaan.
 
@@ -36,7 +36,7 @@ Voor de afbakening van een ligplaats is het niet relevant of de plaats in het wa
 
 BRONNEN [^10-51] [^10-52] [^10-53] [^10-54] [^10-55] [^10-56] [^10-57] [^10-57a]
 
-## 10.6 Afbakening van panden
+## Afbakening van panden
 
 ![Figuur 10.6.a: Beslisboom voor de afbakening van panden](afbeeldingen/pand.svg)
 
@@ -146,7 +146,7 @@ Hoewel dit bouwwerk op zichzelf geen pand is, kan het wel geheel of gedeeltelijk
 
 ### KLAAR
 
-## 10.7 Afbakening van standplaatsen
+## Afbakening van standplaatsen
 
 De afbakening van een standplaats volgt uit de formele aanwijzing van de standplaats door het bevoegde gemeentelijke orgaan.
 
@@ -154,7 +154,7 @@ Voor de afbakening van een standplaats is het niet relevant of het terrein als z
 
 BRONNEN [^10-91] [^10-92] [^10-94] [^10-95] [^10-96] [^10-97]
 
-## 10.8 Afbakening van verblijfsobjecten
+## Afbakening van verblijfsobjecten
 
 ![Figuur 10.8.a: Beslisboom voor de afbakening van verblijfsobjecten](afbeeldingen/verblijfsobject.svg)
 

@@ -1,10 +1,10 @@
-# 9 Implementatie
+# Implementatie
 
 De Wet basisregistratie adressen en gebouwen stelt dat een afnemer BAG-gegevens kan afnemen bij zowel bronhouder als Landelijke Voorziening. Belangrijk uitgangspunt is daarbij dat de afnemer bij bronhouder en landelijke voorziening dezelfde gegevens krijgt.
 
 Om die reden is het van belang om eisen vast te leggen aan de implementatie van bepaalde aspecten die worden toegevoegd bij de implementatie van het conceptuele model in een logisch model. Het logisch model is de basis voor het maken van berichtschema's (StUF) en applicatieschema's (NEN 3610) voor de uitwisseling van BAG-gegevens tussen bronhouders en landelijke voorziening en tussen landelijke voorziening en afnemers. Het betreft eisen aan de implementatie van historie (zie [paragraaf 9.1](#91-historie)), in onderzoek (zie [paragraaf 9.2](#92-in-onderzoek)), en formele patronen om de consistentie van deze gegevens in de hele BAG-keten te borgen (zie [paragraaf 9.3](#93-formele-patronen)).
 
-## 9.1 Historie
+## Historie
 
 In het conceptuele model wordt in de meta-gegevens opgenomen of een attribuut formele en materiële historie opbouwt, bijvoorbeeld het meta-gegeven 'indicatie formele historie' met waarde `Ja`.
 
@@ -12,7 +12,7 @@ De specificatie van formele en materiële historie uit het conceptuele model wor
 
 Ook worden de regels vastgelegd voor het omgaan met object- en versiehistorie.
 
-### 9.1.1 Materiële en formele historie
+### Materiële en formele historie
 
 De materiële en formele historie worden met de volgende tijdstippen geïmplementeerd in de BAG:
 
@@ -39,7 +39,7 @@ tijdstipRegistratieLV
 
 De BAG legt formele historie (_tijdstipRegistratie_ en _eindRegistratie_) en _tijdstipRegistratieLV_ vast met de nauwkeurigheid van datum en tijd in uren, minuten, seconden en milliseconden.
 
-### 9.1.2 Object- en versiehistorie
+### Object- en versiehistorie
 
 In de BAG ontstaan nieuwe BAG-objecten en worden gegevens van BAG-objecten in de tijd gewijzigd. Deze paragraaf beschrijft de te hanteren regels voor object- en versiehistorie.
 
@@ -59,7 +59,7 @@ De versie-identificatie is een nummer. Voor een nieuw toe te kennen identificati
 
 De _identificatie_ en _versie-identificatie_ samen bepalen een unieke versie van een object. De bronhouder levert altijd de actuele versie van een object aan de landelijke voorziening. Het is niet toegestaan om gegevens te wijzigen die op het moment van wijzigen niet meer geldig zijn.
 
-### 9.1.3 Levenscyclus
+### Levenscyclus
 
 De levenscyclus van een object in de BAG bestaat uit alle versies van een object. Dit zijn alle actieve en alle inactieve versies. Een actieve versie is een versie waarvan tijdstipInactief niet ingevuld is. Een inactieve versie is een versie waarvan tijdstipInactief wel ingevuld is.
 
@@ -101,7 +101,7 @@ Naast het opgeven van een tijdstipInactief voor de gegevens waarvan de beginGeld
 
 Met het opnemen van het attribuut Inactief met een datum-tijd wordt kenbaar gemaakt dat deze versie van het object inactief is. Na het inactief maken van een versie ontstaat er een nieuwe levenscyclus, waar de versie die inactief is gemaakt nog steeds wel deel van uitmaakt. De inactieve versie maakt echter geen deel meer uit van de actieve levenscyclus. Als het attribuut Inactief niet voorkomt bij een versie van een object, dan behoren deze gegevens tot de actieve levenscyclus van het object.
 
-### 9.1.4 Samenvatting
+### Samenvatting
 
 Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen [9.1.1](#911-materiële-en-formele-historie), [9.1.2](#912-object--en-versiehistorie) en [9.1.3](#913-levenscyclus) van de implementatie van historie in de BAG (zie tabel 9.1.4.a).
 
@@ -116,7 +116,7 @@ Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen [9.1.1
 | tijdstipInactief | \[0..1\] | DateTime | `jjjj-dd-mmTuu:mm:ss.sss` |
 [Tabel 9.1.4.a: Overzicht implementatie historie BAG]
 
-## 9.2 In onderzoek
+## In onderzoek
 
 In [paragraaf 4.8](inleiding-principes-kwaliteit.md#48-aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie-van-objecten) wordt beschreven welke attributen en relaties van objecten in onderzoek geplaatst kunnen worden. In deze paragraaf wordt gespecificeerd op welke wijze in onderzoek moet worden geïmplementeerd in een logisch model IMBAG.
 
@@ -140,7 +140,7 @@ In onderzoek wordt geïmplementeerd middels een object Onderzoek. In dit objectt
 
 9. Het tijdstip waarop het onderzoek is geregistreerd in de landelijke voorziening. Dit wordt vastgelegd in het attribuut tijdstipRegistratieLV (datum/tijd).
 
-## 9.3 Formele patronen
+## Formele patronen
 
 In [hoofdstuk 5](conceptueelmodel.md#5-conceptueel-model) en [hoofdstuk 8](modelbeschrijving.md#8-domeinwaarden) worden de patronen van attributen in mensleesbare taal beschreven. Om interpretatieverschillen en inconsistentie in de BAG-keten te voorkomen specificeert tabel 9.3.a deze patronen als formele patronen met behulp van reguliere expressies.
 

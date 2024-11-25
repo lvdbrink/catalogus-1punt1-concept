@@ -1,6 +1,6 @@
-# 6 Objecttypen
+# Objecttypen
 
-## 6.1 Woonplaats
+## Woonplaats
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.1.a) en benoemt de attributen (zie tabel 6.1.b) van het objecttype Woonplaats.
 
@@ -30,7 +30,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.1.a) en benoemt de attributen
 | documentnummer | \[1\] | Zie [paragraaf 7.1.7](#717-documentnummer) |
 [Tabel 6.1.b: Overzicht attributen]
 
-## 6.2 Openbare ruimte
+## Openbare ruimte
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.2.a) en benoemt de attributen (zie tabel 6.2.b) en relaties (zie tabel 6.2.c) van het objecttype Openbare ruimte.
 
@@ -65,7 +65,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.2.a) en benoemt de attributen
 | ligt in | gerelateerde woonplaats | \[1\] | Zie [paragraaf 7.2.8](#728-relatie-ligt-in-gerelateerde-woonplaats) |
 [Tabel 6.2.c: Overzicht relaties]
 
-## 6.3 Nummeraanduiding
+## Nummeraanduiding
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.3.a) en benoemt de attributen (zie tabel 6.3.b) en relaties (zie tabel 6.3.c) van het objecttype Nummeraanduiding.
 
@@ -104,7 +104,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.3.a) en benoemt de attributen
 | ligt aan | gerelateerde openbare ruimte | \[1\] | Zie [paragraaf 7.3.12](#7312-relatie-ligt-aan-gerelateerde-openbare-ruimte) |
 [Tabel 6.3.c: Overzicht relaties]
 
-## 6.4 Pand
+## Pand
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.4.a) en benoemt de attributen (zie tabel 6.4.b) van het objecttype Pand.
 
@@ -134,7 +134,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.4.a) en benoemt de attributen
 | documentnummer | \[1\] | Zie [paragraaf 7.4.7](#747-documentnummer) |
 [Tabel 6.4.b: Overzicht attributen]
 
-## 6.5 Adresseerbaar object
+## Adresseerbaar object
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.5.a) en benoemt de relaties (zie tabel 6.5.b) van het objecttype Adresseerbaar object.
 
@@ -159,7 +159,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.5.a) en benoemt de relaties (
 | heeft als nevenadres | nevenadres | \[0..\*\] | Zie [paragraaf 7.5.2](#752-relatie-heeft-als-nevenadres-nevenadres) |
 [Tabel 6.5.b: Overzicht relaties]
 
-## 6.6 Ligplaats
+## Ligplaats
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.6.a) en benoemt de attributen (zie tabel 6.6.b) van het objecttype Ligplaats.
 
@@ -188,7 +188,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.6.a) en benoemt de attributen
 | documentnummer | \[1\] | Zie [paragraaf 7.6.6](#766-documentnummer) |
 [Tabel 6.6.b: Overzicht attributen]
 
-## 6.7 Standplaats
+## Standplaats
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.7.a) en benoemt de attributen (zie tabel 6.7.b) van het objecttype Standplaats.
 
@@ -217,7 +217,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.7.a) en benoemt de attributen
 | documentnummer | \[1\] | Zie [paragraaf 7.7.6](#776-documentnummer) |
 [Tabel 6.7.b: Overzicht attributen]
 
-## 6.8 Verblijfsobject
+## Verblijfsobject
 
 Deze paragraaf geeft een beschrijving (zie tabel 6.8.a) en benoemt de attributen (zie tabel 6.8.b) en relaties (zie tabel 6.8.c) van het objecttype Verblijfsobject.
 

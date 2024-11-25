@@ -1,7 +1,6 @@
+# Domeinwaarden
 
-# 8 Domeinwaarden
-
-## 8.1 Indicatie
+## Indicatie
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Indicatie (zie tabellen 8.1.a en 8.1.b).
 
@@ -18,7 +17,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Indic
 | `N` | Nee |
 [Tabel 8.1.b: De geldige waarden van het domein Indicatie]
 
-## 8.2 Gebruiksdoel
+## Gebruiksdoel
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Gebruiksdoel (zie tabellen 8.2.a en 8.2.b).
 
@@ -44,7 +43,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Gebru
 | `overige gebruiksfunctie` | Niet in dit lid benoemde gebruiksfunctie voor activiteiten waarbij het verblijven van personen een ondergeschikte rol speelt. |
 [Tabel 8.2.b: De geldige waarden van het domein Gebruiksdoel]
 
-## 8.3 StatusWoonplaats
+## StatusWoonplaats
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusWoonplaats (zie tabellen 8.3.a en 8.3.b).
 
@@ -61,7 +60,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | `Woonplaats ingetrokken` | Woonplaats is ingetrokken door het bevoegd gezag. |
 [Tabel 8.3.b: De geldige waarden van het domein StatusWoonplaats]
 
-## 8.4 StatusNaamgeving
+## StatusNaamgeving
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusNaamgeving (zie tabellen 8.4.a en 8.4.b).
 
@@ -78,7 +77,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | `Naamgeving ingetrokken` | Naam is ingetrokken door het bevoegd gezag. |
 [Tabel 8.4.b: De geldige waarden van het domein StatusNaamgeving]
 
-## 8.5 StatusPand
+## StatusPand
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusPand (zie tabellen 8.5.a en 8.5.b).
 
@@ -103,7 +102,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | `Pand ten onrechte opgevoerd` | Een pand dat niet had mogen worden opgenomen in de BAG-registratie en vervolgens is beëindigd. |
 [Tabel 8.5.b: De geldige waarden van het domein StatusPand]
 
-## 8.6 StatusPlaats
+## StatusPlaats
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusPlaats (zie tabellen 8.6.a en 8.6.b).
 
@@ -120,7 +119,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | `Plaats ingetrokken` | Plaats is ingetrokken door het bevoegd gezag. |
 [Tabel 8.6.b: De geldige waarden van het domein StatusPlaats]
 
-## 8.7 StatusVerblijfsobject
+## StatusVerblijfsobject
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein StatusVerblijfsobject (zie tabellen 8.7.a en 8.7.b).
 
@@ -143,7 +142,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | `Verblijfsobject ten onrechte opgevoerd` | Een verblijfsobject dat niet had mogen worden opgenomen in de BAG-registratie en vervolgens is beëindigd. |
 [Tabel 8.7.b: De geldige waarden van het domein StatusVerblijfsobject]
 
-## 8.8 TypeAdresseerbaarObject
+## TypeAdresseerbaarObject
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeAdresseerbaarObject (zie tabellen 8.8.a en 8.8.b).
 
@@ -161,7 +160,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeA
 | `Ligplaats` | Nummeraanduiding is bedoeld voor Ligplaats. |
 [Tabel 8.8.b: De geldige waarden van het domein TypeAdresseerbaarObject]
 
-## 8.9 TypeOpenbareRuimte
+## TypeOpenbareRuimte
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeOpenbareRuimte (zie tabellen 8.9.a en 8.9.b).
 
@@ -183,7 +182,7 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeO
 | `Administratief gebied` | Oftewel 'registratief gebied': op basis van wet- en regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering (bijvoorbeeld stadsdeel) _(bron: NEN 3610:2011/A1:2016 nl)_ |
 [Tabel 8.9.b: De geldige waarden van het domein TypeOpenbareRuimte]
 
-## 8.10 Objecttypecode
+## Objecttypecode
 
 Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Objecttypecode (zie tabellen 8.10.a en 8.10.b).
 

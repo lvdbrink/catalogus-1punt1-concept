@@ -1,9 +1,8 @@
+# Attributen & relaties
 
-# 7 Attributen & relaties
+## Woonplaats
 
-## 7.1 Woonplaats
-
-### 7.1.1 identificatie
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -26,7 +25,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.1.1.a: Beschrijving van het attribuut identificatie]
 
-### 7.1.2 naam
+### naam
 
 | Naam | naam |
 | :--- | :--- |
@@ -49,7 +48,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.1.2.a: Beschrijving van het attribuut naam]
 
-### 7.1.3 geometrie
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -72,7 +71,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.1.3.a: Beschrijving van het attribuut geometrie]
 
-### 7.1.4 status
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -95,7 +94,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.1.4.a: Beschrijving van het attribuut status]
 
-### 7.1.5 geconstateerd
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -118,7 +117,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.1.5.a: Beschrijving van het attribuut geconstateerd]
 
-### 7.1.6 documentdatum
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -141,7 +140,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.1.6.a: Beschrijving van het attribuut documentdatum]
 
-### 7.1.7 documentnummer
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -164,9 +163,9 @@
 | **Identificerend** | Nee |
 [Tabel 7.1.7.a: Beschrijving van het attribuut documentnummer]
 
-## 7.2 Openbare ruimte
+## Openbare ruimte
 
-### 7.2.1 identificatie
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -189,7 +188,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.2.1.a: Beschrijving van het attribuut identificatie]
 
-### 7.2.2 naam
+### naam
 
 | Naam | naam |
 | :--- | :--- |
@@ -212,7 +211,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.2.2.a: Beschrijving van het attribuut naam]
 
-### 7.2.3 type
+### type
 
 | Naam | type |
 | :--- | :--- |
@@ -235,7 +234,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.2.3.a: Beschrijving van het attribuut type]
 
-### 7.2.4 status
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -258,7 +257,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.2.4.a: Beschrijving van het attribuut status]
 
-### 7.2.5 geconstateerd
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -281,7 +280,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.2.5.a: Beschrijving van het attribuut geconstateerd]
 
-### 7.2.6 documentdatum
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -304,7 +303,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.2.6.a: Beschrijving van het attribuut documentdatum]
 
-### 7.2.7 documentnummer
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -327,7 +326,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.2.7.a: Beschrijving van het attribuut documentnummer]
 
-### 7.2.8 Relatie: ligt in gerelateerde woonplaats
+### Relatie: ligt in gerelateerde woonplaats
 
 | Naam | ligt in |
 | :--- | :--- |
@@ -355,9 +354,9 @@
 | **Mogelijk geen waarde** | Nee |
 [Tabel 7.2.8.b: Beschrijving van de relatierol: gerelateerde woonplaats]
 
-## 7.3 Nummeraanduiding
+## Nummeraanduiding
 
-### 7.3.1 identificatie
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -380,7 +379,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.3.1.a: Beschrijving van het attribuut identificatie]
 
-### 7.3.2 huisnummer
+### huisnummer
 
 | Naam | huisnummer |
 | :--- | :--- |
@@ -403,7 +402,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.2.a: Beschrijving van het attribuut huisnummer]
 
-### 7.3.3 huisletter
+### huisletter
 
 | Naam | huisletter |
 | :--- | :--- |
@@ -426,7 +425,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.3.a: Beschrijving van het attribuut huisletter]
 
-### 7.3.4 huisnummertoevoeging
+### huisnummertoevoeging
 
 | Naam | huisnummertoevoeging |
 | :--- | :--- |
@@ -449,7 +448,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.4.a: Beschrijving van het attribuut huisnummertoevoeging]
 
-### 7.3.5 postcode
+### postcode
 
 | Naam | postcode |
 | :--- | :--- |
@@ -472,7 +471,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.5.a: Beschrijving van het attribuut postcode]
 
-### 7.3.6 type adresseerbaar object
+### type adresseerbaar object
 
 | Naam | type adresseerbaar object |
 | :--- | :--- |
@@ -495,7 +494,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.6.a: Beschrijving van het attribuut type adresseerbaar object]
 
-### 7.3.7 status
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -518,7 +517,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.7.a: Beschrijving van het attribuut status]
 
-### 7.3.8 geconstateerd
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -541,7 +540,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.8.a: Beschrijving van het attribuut geconstateerd]
 
-### 7.3.9 documentdatum
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -564,7 +563,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.9.a: Beschrijving van het attribuut documentdatum]
 
-### 7.3.10 documentnummer
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -587,7 +586,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.3.10.a: Beschrijving van het attribuut documentnummer]
 
-### 7.3.11 Relatie: ligt in gerelateerde woonplaats
+### Relatie: ligt in gerelateerde woonplaats
 
 | Naam | ligt in |
 | :--- | :--- |
@@ -615,7 +614,7 @@
 | **Mogelijk geen waarde** | Nee |
 [Tabel 7.3.11.b: Beschrijving van de relatierol: gerelateerde woonplaats]
 
-### 7.3.12 Relatie: ligt aan gerelateerde openbare ruimte
+### Relatie: ligt aan gerelateerde openbare ruimte
 
 | Naam | ligt aan |
 | :--- | :--- |
@@ -643,9 +642,9 @@
 | **Mogelijk geen waarde** | Nee |
 [Tabel 7.3.12.b: Beschrijving van de relatierol: gerelateerde openbare ruimte]
 
-## 7.4 Pand
+## Pand
 
-### 7.4.1 identificatie
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -668,7 +667,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.4.1.a: Beschrijving van het attribuut identificatie]
 
-### 7.4.2 geometrie
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -691,7 +690,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.4.2.a: Beschrijving van het attribuut geometrie]
 
-### 7.4.3 oorspronkelijk bouwjaar
+### oorspronkelijk bouwjaar
 
 | Naam | oorspronkelijk bouwjaar |
 | :--- | :--- |
@@ -714,7 +713,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.4.3.a: Beschrijving van het attribuut bouwjaar]
 
-### 7.4.4 status
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -737,7 +736,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.4.4.a: Beschrijving van het attribuut status]
 
-### 7.4.5 geconstateerd
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -760,7 +759,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.4.5.a: Beschrijving van het attribuut geconstateerd]
 
-### 7.4.6 documentdatum
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -783,7 +782,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.4.6.a: Beschrijving van het attribuut documentdatum]
 
-### 7.4.7 documentnummer
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -806,9 +805,9 @@
 | **Identificerend** | Nee |
 [Tabel 7.4.7.a: Beschrijving van het attribuut documentnummer]
 
-## 7.5 Adresseerbaar object
+## Adresseerbaar object
 
-### 7.5.1 Relatie: heeft als hoofdadres hoofdadres
+### Relatie: heeft als hoofdadres hoofdadres
 
 | Naam | heeft als hoofdadres |
 | :--- | :--- |
@@ -836,7 +835,7 @@
 | **Mogelijk geen waarde** | Nee |
 [Tabel 7.5.1.b: Beschrijving van de relatierol: hoofdadres]
 
-### 7.5.2 Relatie: heeft als nevenadres nevenadres
+### Relatie: heeft als nevenadres nevenadres
 
 | Naam | heeft als nevenadres |
 | :--- | :--- |
@@ -864,9 +863,9 @@
 | **Mogelijk geen waarde** | Nee |
 [Tabel 7.5.1.b: Beschrijving van de relatierol: nevenadres]
 
-## 7.6 Ligplaats
+## Ligplaats
 
-### 7.6.1 identificatie
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -889,7 +888,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.6.1.a: Beschrijving van het attribuut identificatie]
 
-### 7.6.2 status
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -912,7 +911,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.6.2.a: Beschrijving van het attribuut status]
 
-### 7.6.3 geometrie
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -935,7 +934,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.6.3.a: Beschrijving van het attribuut geometrie]
 
-### 7.6.4 geconstateerd
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -958,7 +957,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.6.4.a: Beschrijving van het attribuut geconstateerd]
 
-### 7.6.5 documentdatum
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -981,7 +980,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.6.5.a: Beschrijving van het attribuut documentdatum]
 
-### 7.6.6 documentnummer
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -1004,9 +1003,9 @@
 | **Identificerend** | Nee |
 [Tabel 7.6.6.a: Beschrijving van het attribuut documentnummer]
 
-## 7.7 Standplaats
+## Standplaats
 
-### 7.7.1 identificatie
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -1029,7 +1028,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.7.1.a: Beschrijving van het attribuut identificatie]
 
-### 7.7.2 status
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -1052,7 +1051,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.7.2.a: Beschrijving van het attribuut status]
 
-### 7.7.3 geometrie
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -1075,7 +1074,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.7.3.a: Beschrijving van het attribuut geometrie]
 
-### 7.7.4 geconstateerd
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -1098,7 +1097,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.7.4.a: Beschrijving van het attribuut geconstateerd]
 
-### 7.7.5 documentdatum
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -1121,7 +1120,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.7.5.a: Beschrijving van het attribuut documentdatum]
 
-### 7.7.6 documentnummer
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -1144,9 +1143,9 @@
 | **Identificerend** | Nee |
 [Tabel 7.7.6.a: Beschrijving van het attribuut documentnummer]
 
-## 7.8 Verblijfsobject
+## Verblijfsobject
 
-### 7.8.1 identificatie
+### identificatie
 
 | Naam | identificatie |
 | :--- | :--- |
@@ -1169,7 +1168,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.8.1.a: Beschrijving van het attribuut identificatie]
 
-### 7.8.2 geometrie
+### geometrie
 
 | Naam | geometrie |
 | :--- | :--- |
@@ -1192,7 +1191,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.8.2.a: Beschrijving van het attribuut geometrie]
 
-### 7.8.3 gebruiksdoel
+### gebruiksdoel
 
 | Naam | gebruiksdoel |
 | :--- | :--- |
@@ -1215,7 +1214,7 @@
 | **Identificerend** | Ja |
 [Tabel 7.8.3.a: Beschrijving van het attribuut gebruiksdoel]
 
-### 7.8.4 oppervlakte
+### oppervlakte
 
 | Naam | oppervlakte |
 | :--- | :--- |
@@ -1238,7 +1237,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.8.4.a: Beschrijving van het attribuut oppervlakte]
 
-### 7.8.5 status
+### status
 
 | Naam | status |
 | :--- | :--- |
@@ -1261,7 +1260,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.8.5.a: Beschrijving van het attribuut status]
 
-### 7.8.6 geconstateerd
+### geconstateerd
 
 | Naam | geconstateerd |
 | :--- | :--- |
@@ -1284,7 +1283,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.8.6.a: Beschrijving van het attribuut geconstateerd]
 
-### 7.8.7 documentdatum
+### documentdatum
 
 | Naam | documentdatum |
 | :--- | :--- |
@@ -1307,7 +1306,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.8.7.a: Beschrijving van het attribuut documentdatum]
 
-### 7.8.8 documentnummer
+### documentnummer
 
 | Naam | documentnummer |
 | :--- | :--- |
@@ -1330,7 +1329,7 @@
 | **Identificerend** | Nee |
 [Tabel 7.8.8.a: Beschrijving van het attribuut documentnummer]
 
-### 7.8.9 Relatie: maakt deel uit van gerelateerd pand
+### Relatie: maakt deel uit van gerelateerd pand
 
 | Naam | maakt deel uit van |
 | :--- | :--- |
@@ -1358,9 +1357,9 @@
 | **Mogelijk geen waarde** | Nee |
 [Tabel 7.8.9.b: Beschrijving van de relatierol: gerelateerd pand]
 
-## 7.9 Samengestelde attributen
+## Samengestelde attributen
 
-### 7.9.1 Objectnummering
+### Objectnummering
 
 Deze paragraaf geeft een beschrijving (zie tabel 7.9.1.a) en benoemt de gegevens­elementen (zie tabel 7.9.1.b) van het samengestelde attribuut objectnummering.
 
@@ -1378,7 +1377,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.1.a) en benoemt de gegevens
 | objectvolgnummer | \[1\] | Zie [paragraaf 7.9.1.3](#7913-objectvolgnummer) |
 [Tabel 7.9.1.b: Overzicht van de gegevens­elementen van het samengestelde attribuut objectnummering]
 
-#### 7.9.1.1 gemeentecode
+#### gemeentecode
 
 | Naam | gemeentecode |
 | :--- | :--- |
@@ -1401,7 +1400,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.1.a) en benoemt de gegevens
 | **Identificerend** | Nee |
 [Tabel 7.9.1.1.a: Beschrijving van het gegevenselement gemeentecode]
 
-#### 7.9.1.2 objecttypecode
+#### objecttypecode
 
 | Naam | objecttypecode |
 | :--- | :--- |
@@ -1424,7 +1423,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.1.a) en benoemt de gegevens
 | **Identificerend** | Nee |
 [Tabel 7.9.1.2.a: Beschrijving van het gegevenselement objecttypecode]
 
-#### 7.9.1.3 objectvolgnummer
+#### objectvolgnummer
 
 | Naam | objectvolgnummer |
 | :--- | :--- |
@@ -1447,7 +1446,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.1.a) en benoemt de gegevens
 | **Identificerend** | Nee |
 [Tabel 7.9.1.3.a: Beschrijving van het gegevenselement objectvolgnummer]
 
-### 7.9.2 puntOfVlak
+### puntOfVlak
 
 Deze paragraaf geeft een beschrijving (zie tabel 7.9.2.a) en benoemt de gegevens­elementen (zie tabel 7.9.2.b) van het samengestelde attribuut puntOfVlak
 
@@ -1464,7 +1463,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.2.a) en benoemt de gegevens
 | Vlak | \[1\] | Zie [paragraaf 7.9.2.2](#7922-vlak) |
 [Tabel 7.9.2.b: Overzicht van de gegevens­elementen van het samengestelde attribuut puntOfVlak]
 
-#### 7.9.2.1 punt
+#### punt
 
 | Naam | punt |
 | :--- | :--- |
@@ -1487,7 +1486,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.2.a) en benoemt de gegevens
 | **Identificerend** | Nee |
 [Tabel 7.9.2.1.a: Beschrijving van het gegevenselement punt]
 
-#### 7.9.2.2 vlak
+#### vlak
 
 | Naam | vlak |
 | :--- | :--- |
@@ -1510,7 +1509,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.2.a) en benoemt de gegevens
 | **Identificerend** | Nee |
 [Tabel 7.9.2.2.a: Beschrijving van het gegevenselement vlak]
 
-### 7.9.3 vlakOfMultivlak
+### vlakOfMultivlak
 
 Deze paragraaf geeft een beschrijving (zie tabel 7.9.3.a) en benoemt de gegevens­elementen (zie tabel 7.9.3.b) van het samengestelde attribuut vlakOfMultivlak
 
@@ -1527,7 +1526,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.3.a) en benoemt de gegevens
 | multivlak | \[1\] | Zie [paragraaf 7.9.3.2](#7932-multivlak) |
 [Tabel 7.9.3.b: Overzicht van de gegevens­elementen van het samengestelde attribuut vlakOfMultivlak]
 
-#### 7.9.3.1 vlak
+#### vlak
 
 | Naam | vlak |
 | :--- | :--- |
@@ -1550,7 +1549,7 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.3.a) en benoemt de gegevens
 | **Identificerend** | Nee |
 [Tabel 7.9.3.1.a: Beschrijving van het gegevenselement vlak]
 
-#### 7.9.3.2 multivlak
+#### multivlak
 
 | Naam | multivlak |
 | :--- | :--- |
@@ -1573,9 +1572,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.3.a) en benoemt de gegevens
 | **Identificerend** | Nee |
 [Tabel 7.9.3.2.a: Beschrijving van het gegevenselement multivlak]
 
-## 7.10 Gegevenstypen
+## Gegevenstypen
 
-### 7.10.1 AN
+### AN
 
 | Naam | AN |
 | :--- | :--- |

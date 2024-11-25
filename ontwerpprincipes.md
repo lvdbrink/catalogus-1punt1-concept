@@ -1,4 +1,4 @@
-# 2 Ontwerpprincipes
+# Ontwerpprincipes
 
 Voor de inhoud van de BAG zijn ontwerpprincipes gehanteerd met betrekking tot:
 
@@ -10,13 +10,13 @@ Voor de inhoud van de BAG zijn ontwerpprincipes gehanteerd met betrekking tot:
 - het dekkingsgebied (zie [paragraaf 2.6](#26-dekkingsgebied));
 - de modellering (zie [paragraaf 2.7](#27-modellering)).
 
-## 2.1 Gebouwen
+## Gebouwen
 
 In tegenstelling tot hetgeen de naam van de registratie suggereert, komt er binnen de registratie geen objecttype "Gebouw" voor. De reden hiervoor is dat het begrip "gebouw" op veel plaatsen al in gebruik is voor een object dat is gedefinieerd als volledig vrijstaand. Om die reden is ervoor gekozen in plaats daarvan het begrip "pand" te hanteren.
 
 In de BAG worden ook gegevens bijgehouden over locaties waarop met gebouwen vergelijkbare objecten permanent mogen worden geplaatst, bijvoorbeeld standplaatsen voor woonwagens en ligplaatsen voor woonboten. Om het permanente karakter van een standplaats of ligplaats te benadrukken is in de definitie vastgelegd dat er sprake dient te zijn van een door het bevoegd gezag (gemeenteraad of burgemeester en wethouders) als zodanig aangewezen plaats of locatie. Hiermee onderscheidt bijvoorbeeld een ligplaats zich van aanmeerplaatsen en afmeerplaatsen, die bedoeld zijn voor het tijdelijk aan- en afmeren van onder meer pleziervaartuigen en beroepsvaartuigen langs kades en in havens. De begrenzing van een standplaats of ligplaats vloeit voort uit de formele aanwijzing door het bevoegd gezag.
 
-## 2.2 Adressen
+## Adressen
 
 Een adres in de BAG is een samenstelling van drie objecten: Woonplaats, Openbare ruimte en Nummeraanduiding. Een adres kan in de BAG niet bestaan zonder een bijbehorend adresseerbaar object: Verblijfsobject, Standplaats of Ligplaats. Deze objecten zijn de objecten waaraan formeel adressen kunnen en moeten worden toegekend. De BAG bevat daarmee alle authentieke toegekende adressen. Aan objecten die niet voldoen aan de criteria van een van deze objecttypen, kan geen authentiek adres worden toegekend.
 
@@ -24,7 +24,7 @@ Het adres wordt gevormd door het huisnummer, de eventuele huisletter en de event
 
 Het aanwezig zijn van een adres voor een adresseerbaar object, is van essentieel belang voor het in het maatschappelijk verkeer kunnen aanduiden van het betreffende object. Aan ieder adresseerbaar object wordt één hoofdadres toegekend. Indien aan de daaraan gestelde voorwaarden (zie paragraaf 10.2) wordt voldaan, kunnen nevenadressen toegekend worden. Daarbij geldt dat een nevenadres een eigenschap is van hetzelfde adresseerbaar object als het bijbehorende hoofdadres. Met het nevenadres wordt expliciet niet een bepaald gedeelte van een adresseerbaar object aangeduid.
 
-## 2.3 Objecten
+## Objecten
 
 De BAG is een objectenregistratie. Dit betekent dat in de registratie bepaalde objecten concreet worden afgebakend en van een unieke aanduiding voorzien. Het zijn deze objecten waaraan vervolgens de te registreren gegevens worden "opgehangen". Van deze objecten worden de geometrische en/of administratieve eigenschappen vastgelegd in de BAG.
 
@@ -36,7 +36,7 @@ In de BAG worden feitelijke objecten in de werkelijkheid, zoals gerealiseerde pa
 
 ![Figuur 2.3.a: De objecttypen van de BAG](afbeeldingen/objecttypen.svg)
 
-## 2.4 Brondocumenten
+## Brondocumenten
 
 Elke wijziging van de gegevens in de BAG is gebaseerd op een brondocument. Ook bij constatering van een object of de correctie van gegevens is de bronhouder verplicht een brondocument op te stellen. De toegestane brondocumenten worden opgesomd in het Besluit basisregistratie adressen en gebouwen[^2-4-i]. Digitale brondocumenten en brondocumenten in de vorm van berichten zijn toegestaan. Een brondocument kan een of meer objecten en/of attributen betreffen. Brondocumenten mogen niet uit de archieven van bronhouder worden verwijderd en worden door de bronhouder dus blijvend opgeslagen, met inachtneming van de regels uit de Archiefwet[^2-4-ii].
 
@@ -44,15 +44,15 @@ Elke wijziging van de gegevens in de BAG is gebaseerd op een brondocument. Ook b
 
 [^2-4-ii]: Archiefwet 1995. [http://wetten.overheid.nl/jci1.3:c:BWBR0007376](http://wetten.overheid.nl/jci1.3:c:BWBR0007376)
 
-## 2.5 Landelijke voorziening
+## Landelijke voorziening
 
 De gemeente registreert als bronhouder alle gegevens overeenkomstig de inhoud van het brondocument bij de gemeente in de basisregistratie. De gemeente levert deze gegevens door aan de landelijke voorziening, die ze bewaart en beschikbaar stelt aan afnemers.
 
-## 2.6 Dekkingsgebied
+## Dekkingsgebied
 
 Het werkingsgebied van de BAG is het bestuurlijk ingedeelde gebied van Nederland in Europa, oftewel de verzameling van gemeenten in Nederland. De gemeentegrens van kustgemeenten ligt op circa een kilometer uit de kust. Wat buiten de gemeentegrens ligt, wordt niet in de BAG opgenomen; wat erbinnen ligt wel.
 
-## 2.7 Modellering
+## Modellering
 
 De BAG hanteert voor de modellering het nationaal metamodel voor informatiemodellering (MIM), dat is ontwikkeld door VNG Realisatie, Kadaster en Geonovum[^2-7-i]. Het conceptuele informatiemodel voor de BAG (IMBAG) wordt beschikbaar gesteld in UML[^2-7-ii]. Bij deze UML wordt een toelichting beschikbaar gesteld die beschrijft welke keuzes de BAG heeft gemaakt bij de toepassing van het MIM.
 

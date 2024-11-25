@@ -1,4 +1,4 @@
-# 1 Inleiding
+# Inleiding
 
 Deze catalogus van de Basisregistratie Adressen en Gebouwen (BAG) beschrijft hoe objectgerichte informatie over adressen en gebouwen moet worden vastgelegd, zodat landelijke uitwisseling van deze informatie mogelijk is.
 
@@ -10,7 +10,7 @@ In deze catalogus zijn de uitgangspunten en voorschriften opgenomen die ervoor z
 
 Dit eerste hoofdstuk geeft een samenvatting van de Basisregistratie Adressen en Gebouwen (zie [paragraaf 1.1](#11-de-basisregistratie-adressen-en-gebouwen)) en beschrijft het doel (zie [paragraaf 1.2](#12-doel)) en het gebruik ervan (zie [paragraaf 1.3](#13-gebruik)).
 
-## 1.1 De Basisregistratie Adressen en Gebouwen
+## De Basisregistratie Adressen en Gebouwen
 
 Sinds 2009 hebben gemeenten de wettelijke taak om basisgegevens over adressen en gebouwen bij te houden in de Basisregistratie Adressen en Gebouwen (BAG). Van oorsprong bestond de BAG uit twee basisregistraties: de Basisregistratie Adressen en de Basisregistratie Gebouwen. Deze twee basisregistraties waren onderling sterk gerelateerd en vormden daarom in de praktijk een geheel.
 
@@ -28,7 +28,7 @@ In 2013-2014 heeft de Auditdienst Rijk de doeltreffendheid en de effecten van de
 
 [^1-1-i]: De Wet basisregistraties adressen en gebouwen is conform artikel 46 van deze wet in 2013 geëvalueerd door de Auditdienst Rijk in opdracht van het ministerie van Infrastructuur en Milieu. Het evaluatierapport is begin 2014 opgeleverd en op 25 april 2014 aan de Tweede Kamer verzonden. [https://www.geobasisregistraties.nl/basisregistraties/adressen-en-gebouwen/evaluatie-bag/evaluatie-onderzoek-bag-door-auditdienst-rijk](https://www.geobasisregistraties.nl/basisregistraties/adressen-en-gebouwen/evaluatie-bag/evaluatie-onderzoek-bag-door-auditdienst-rijk)
 
-## 1.2 Doel
+## Doel
 
 De Basisregistratie Adressen en Gebouwen (BAG) is een van de basisregistraties die deel uitmaakt van het landelijk stelsel van basisregistraties. Deze basisregistraties zijn erop gericht de informatievoorziening in Nederland beter te ordenen. Het eenduidig benoemen van te registreren objecten is dan ook de belangrijkste functie van een basisregistratie.
 
@@ -38,7 +38,7 @@ Registratie in de BAG heeft overigens uitdrukkelijk uitsluitend een administrati
 
 [^1-2-i]: Memorie van toelichting bij de wijziging van de Wet basisregistraties adressen en gebouwen en de Kadasterwet, kamerstukken II, 2008/09, 31 726, nr. 3, 7 oktober 2008: "Uitgangspunt blijft uiteraard dat registratie plaatsvindt op basis van de originele brondocumenten. Het gebruik van een formaliseringsbeslissing als brondocument dient beperkt te zijn tot die gevallen waarin er geen origineel brondocument bestaat of zo’n document slechts met onevenredige inspanning kan worden achterhaald. Het ontbreken van een brondocument kan zich bijvoorbeeld voordoen indien voor een pand geen bouwvergunning bestaat. Dit kan zeer oude, vergunningsvrije of illegale bouw betreffen. In dit verband dient uitdrukkelijk te worden opgemerkt dat een formaliseringsbeslissing in het kader van de registratie uitsluitend een administratieve achtergrond heeft en geen legalisering of ander (rechts)gevolg inhoudt. Overigens is denkbaar dat in sommige gevallen wel een brondocument heeft bestaan, dat echter door een calamiteit of anderszins teniet is gegaan." [https://zoek.officielebekendmakingen.nl/kst-31726-3.html](https://zoek.officielebekendmakingen.nl/kst-31726-3.html)
 
-## 1.3 Gebruik
+## Gebruik
 
 De BAG is een van de basisregistraties die de kern vormt van de gegevenshuishouding van de overheid. Binnen een dergelijke (verplicht te gebruiken) basisregistratie wordt het fundament gelegd voor de eenduidige benoeming van een aantal binnen veel overheidsprocessen gebruikte objecten. Hierdoor worden de binnen deze verschillende processen gebruikte objecten onderling consistent en kunnen gegevens uit verschillende processen zo nodig met elkaar gekoppeld en gecombineerd worden.
 
