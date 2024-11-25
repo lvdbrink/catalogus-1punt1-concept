@@ -1,0 +1,3 @@
+Deze catalogus van de Basisregistratie Adressen en Gebouwen (BAG) beschrijft hoe objectgerichte informatie over adressen en gebouwen moet worden vastgelegd, zodat landelijke uitwisseling van deze informatie mogelijk is.
+
+Dit document is afgeleid van de uitgave van 31 maart 2018 door het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties, Directoraat-generaal Bestuur, Ruimte en Wonen, Directie Ruimtelijke Ordening. Kleine wijzigingen worden in dit document doorgevoerd op basis van de [geregistreerde wensen](https://github.com/imbag/wensen). 
