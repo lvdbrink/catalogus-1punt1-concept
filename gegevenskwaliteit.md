@@ -1,31 +1,4 @@
----
-layout: page
-title: 4 Gegevenskwaliteit
-date: 2018-03-05
-description:
-lijstvolgorde: 140
-toc:
-- 4 Gegevenskwaliteit
-- 4.1 Volledigheid
-- 4.2 Compleetheid
-- 4.3 Juistheid
-- 4.4 Actualiteit
-- 4.5 Positionele nauwkeurigheid
-- 4.6 Oppervlaktenauwkeurigheid
-- 4.7 Tijd
-- 4.8 Aanwijzingen van mogelijke onjuistheden in de registratie
----
-
-# Inhoud van hoofdstuk 4 Gegevenskwaliteit
-{:.no_toc}
-
-* ToC
-{:toc}
-
----
-
-# 4 Gegevenskwaliteit
-{:.no_toc}
+# Gegevenskwaliteit
 
 De kwaliteit van de gegevens die in de BAG zijn opgenomen, dient te voldoen aan de gestelde eisen.
 
@@ -58,13 +31,13 @@ Deze kwaliteitscriteria zijn uitgewerkt in kwaliteitseisen. De vermelde waarden 
 
 [^4-i]: Wet basisregistraties adressen en gebouwen, artikel 35, lid 2: "Een bestuursorgaan kan een ander gegeven gebruiken dan een krachtens deze wet beschikbaar authentiek gegeven, ingeval: a. bij het desbetreffende authentieke gegeven de aanduiding als bedoeld in artikel 19, vierde lid, onderdeel a is geplaatst; b. bij het desbetreffende authentieke gegeven de aantekening «in onderzoek» is geplaatst; c. het met betrekking tot het desbetreffende authentieke gegeven een melding heeft gedaan als bedoeld in artikel 37; d. het door toepassing van het eerste lid zijn publiekrechtelijke taak niet naar behoren zou kunnen vervullen, of e. bij wettelijk voorschrift anders is bepaald dan in het eerste lid." [http://wetten.overheid.nl/jci1.3:c:BWBR0023466](http://wetten.overheid.nl/jci1.3:c:BWBR0023466#Hoofdstuk5_Paragraaf2_Artikel35) en [https://zoek.officielebekendmakingen.nl/stb-2017-60.html](https://zoek.officielebekendmakingen.nl/stb-2017-60.html)
 
-## 4.1 Volledigheid
+## Volledigheid
 
 Alle objecten die voldoen aan de definitie van een van de BAG-objecttypen, moeten worden geregistreerd in de BAG.
 
 Objecten die op grond van een brondocument bekend zijn bij de gemeente, worden opgenomen op basis van dat brondocument.
 
-Objecten die in de werkelijkheid bestaan maar waarvan geen brondocument beschikbaar is, worden opgenomen op basis van een document van constatering.
+Objecten die in de werkelijkheid bestaan maar waarvan geen brondocument beschikbaar is, worden opgenomen op basis van een ambtelijke verklaring.
 
 Een object wordt beëindigd in de BAG als:
 
@@ -73,15 +46,15 @@ Een object wordt beëindigd in de BAG als:
 
 Objecten waarvan het feitelijk bestaan na de invoering van de Wet basisregistratie adressen en gebouwen per 1 juli 2009 volgens een brondocument is geëindigd, zijn als zodanig herkenbaar opgenomen in de registratie.
 
-## 4.2 Compleetheid
+## Compleetheid
 
-Alle te registreren kenmerken (attributen) van de geregistreerde objecten zijn opgenomen in de registratie (zie [hoofdstuk 6](objecttypen.md)).
+Alle te registreren kenmerken (attributen) van de geregistreerde objecten zijn opgenomen in de registratie (zie [hoofdstuk 6](modelbeschrijving.md#6-objecttypen)).
 
-Alle in de BAG opgenomen gegevens zijn voorzien van een waarde, indien in deze catalogus is voorgeschreven dat het betreffende gegeven verplicht van een waarde moet zijn voorzien (zie [hoofdstuk 7](attributen--relaties.md)).
+Alle in de BAG opgenomen gegevens zijn voorzien van een waarde, indien in deze catalogus is voorgeschreven dat het betreffende gegeven verplicht van een waarde moet zijn voorzien (zie [hoofdstuk 7](modelbeschrijving.md#7-attributen--relaties)).
 
-De waarde van elk in de BAG opgenomen gegeven moet passen binnen de domeinwaarde die het betreffende gegeven overeenkomstig deze catalogus kan aannemen (zie [hoofdstuk 8](domeinwaarden.md)).
+De waarde van elk in de BAG opgenomen gegeven moet passen binnen de domeinwaarde die het betreffende gegeven overeenkomstig deze catalogus kan aannemen (zie [hoofdstuk 8](modelbeschrijving.md#8-domeinwaarden)).
 
-## 4.3 Juistheid
+## Juistheid
 
 Alle in de registratie verwerkte wijzigingen komen overeen met hetgeen daarover in het onderliggende brondocument is opgenomen.
 
@@ -89,9 +62,9 @@ Bij elke versie van een object in de BAG is een verwijzing opgenomen naar het br
 
 Bij elke versie van een object in de BAG komt de waarde van een gewijzigd gegeven exact overeen met de waarde van dit gegeven in het bijbehorende brondocument, tenzij is bepaald dat een gegeven binnen bepaalde tolerantiegrenzen een afwijking mag kennen ten opzichte van de exacte waarde van het gegeven.
 
-De in de BAG opgenomen gegevens die volgens de in deze catalogus opgenomen regels voor die attribuutsoort aan een nauwkeurigheidseis moeten voldoen (zie dit [hoofdstuk 4](gegevenskwaliteit.md) en [hoofdstuk 7](attributen--relaties.md)), kennen een nauwkeurigheid zoals genoemd in die nauwkeurigheidseisen.
+De in de BAG opgenomen gegevens die volgens de in deze catalogus opgenomen regels voor die attribuutsoort aan een nauwkeurigheidseis moeten voldoen (zie dit [hoofdstuk 4](#4-gegevenskwaliteit) en [hoofdstuk 7](modelbeschrijving.md#7-attributen--relaties)), kennen een nauwkeurigheid zoals genoemd in die nauwkeurigheidseisen.
 
-## 4.4 Actualiteit
+## Actualiteit
 
 Actualiteit is de mate waarin de gegevens binnen een gedefinieerd tijdsinterval overeenstemmen met de werkelijke situatie. Voor de BAG betekent dit dat de actualiteit betrekking heeft op de administratieve werkelijkheid en de tijdige verwerking van brondocumenten.
 
@@ -104,7 +77,7 @@ Binnen vier werkdagen na het nemen van een besluit (oftewel de datum van het bro
 
 Het is niet meer mogelijk de gegevens uit een eerder besluit door te voeren als een opvolgend besluit c.q. brondocument reeds is verwerkt in de registratie. Er wordt dan een verklaring opgesteld en vervolgens wordt de mutatie doorgevoerd met de besluitdatum van de verklaring als datum begin geldigheid en als documentdatum.
 
-## 4.5 Positionele nauwkeurigheid
+## Positionele nauwkeurigheid
 
 Bij oppervlakten en geometrie is sprake van bepaalde meetnauwkeurigheden en moet men rekening houden met bepaalde toleranties. Voor dit soort gegevens gelden dan ook toleranties ten aanzien van de exactheid van de waarden die het gegeven kan aannemen.
 
@@ -112,13 +85,12 @@ De BAG stelt eisen aan de positionele nauwkeurigheid van de geometrie van een pa
 
 Afhankelijk van welke status een pand heeft, heeft een pand een voorlopige (niet-ingemeten) of een definitieve (ingemeten) geometrie. Er gelden andere kwaliteitseisen voor de voorlopige dan voor de definitieve geometrie van een pand (zie tabel 4.5.a). Een pand met status `ten onrechte opgevoerd` voldoet aan de kwaliteitseisen van de voorgaande status.
 
-_Tabel 4.5.a: Verschillen tussen de kwaliteitseisen voor de voorlopige en de definitieve geometrie van een pand_
-
 | Facet | Voorlopige, niet-ingemeten pandgeometrie | Definitieve, ingemeten pandgeometrie |
 | :--- | :--- | :--- |
 | Status van het pand | `Bouwvergunning verleend`; `Niet gerealiseerd pand`; `Bouw gestart`; `Pand in gebruik (niet ingemeten)`; `Verbouwing pand` | `Pand in gebruik`; `Sloopvergunning verleend`; `Pand gesloopt`; `Pand buiten gebruik` |
 | Nauwkeurigheidseis | De relatieve puntprecisie[^4-5-i] bedraagt 300 cm (oftewel een afronding naar boven van de absolute puntprecisie van 200 cm) | De relatieve puntprecisie bedraagt 30 cm (oftewel een afronding naar boven van de absolute puntprecisie van 20 cm) |
 | Detailleringseis | Details die meer dan 100 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen | Details die meer dan 25 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen. Als er sprake is van overbouw, wordt de gevellijn van de overbouw ingemeten, mits de overbouw tenminste een verdieping hoog is en tenminste een meter uitsteekt ten opzichte van de gevel op maaiveldniveau |
+[Tabel 4.5.a: Verschillen tussen de kwaliteitseisen voor de voorlopige en de definitieve geometrie van een pand]
 
 Voor de geometrie van woonplaatsen, standplaatsen en ligplaatsen geldt ten aanzien van de nauwkeurigheid en detaillering dat de relatieve puntprecisie van de omtrek 60 cm bedraagt (oftewel een afronding naar boven van de absolute puntprecisie van 40 cm). Waar een woonplaatsgrens langs een gemeentegrens loopt, moet de woonplaatsgrens bovendien zijn gelegen binnen een marge van 1 cm aan weerszijden van de gemeentegrens en mag de totale oppervlakte van de afwijkingen die zo kunnen ontstaan, niet meer bedragen dan 1 m².
 
@@ -130,7 +102,7 @@ De punten in het veld dienen te zijn ingemeten en in het bestand te zijn verwerk
 
 [^4-5-ii]: Handleiding voor de Technische werkzaamheden van het Kadaster (1996), ISBN 90-803078-1-5.
 
-## 4.6 Oppervlaktenauwkeurigheid
+## Oppervlaktenauwkeurigheid
 
 Ten aanzien van de nauwkeurigheid van de oppervlakte is de maximaal toegestane afwijking in de oppervlakte van een verblijfsobject gesteld op 1,15 maal de wortel van de oppervlakte, met dien verstande dat bij objecten met een oppervlakte van 1 m² een toegestane afwijking geldt van 1 m² (100%).
 
@@ -138,7 +110,7 @@ De exacte wijze van bepalen van de gebruiksoppervlakte wordt beschreven in NEN 2
 
 Anders dan NEN 2580:2007 sluit de BAG niet-binnenruimten en gemeenschappelijke ruimten uit van de gebruiksoppervlakte.
 
-## 4.7 Tijd
+## Tijd
 
 De BAG hanteert de norm ISO 8601:2004 voor het beschrijven van tijdsaspecten. De notatie van de tijd is overeenkomstig de ISO-regelgeving: `jjjj-mm-ddTuu:mm:ss.sss`. De hoofdletter `T` wordt hierbij gebruikt om de datum- en tijdcomponent te scheiden. Bijvoorbeeld: `2016-04-01T12:34:56` betekent dus _1 april 2016 om 12 uur, 34 minuten en 56 seconden_.
 
@@ -148,7 +120,7 @@ De kwaliteit van de tijdbeschrijving wordt beschreven met drie aspecten, te wete
 - tijdconsistentie (zie [paragraaf 4.7.2](#472-tijdconsistentie));
 - tijdgeldigheid (zie [paragraaf 4.7.3](#473-tijdgeldigheid)).
 
-### 4.7.1 Tijdnauwkeurigheid
+### Tijdnauwkeurigheid
 
 Met tijdnauwkeurigheid wordt bedoeld de juistheid van de tijdswaarneming. Dit geeft de foutmarge aan in de tijdswaarneming.
 
@@ -158,8 +130,6 @@ Bij het initieel opvoeren van een pand, wordt door de gemeente een reële insch
 
 Ten aanzien van de nauwkeurigheid van bouwjaren worden tolerantiegrenzen gehanteerd (zie tabel 4.7.1.a).
 
-_Tabel 4.7.1.a: Toleranties voor de nauwkeurigheid van bouwjaren_
-
 | Ingevuld bouwjaar | Maximaal toegestane afwijking |
 | :---: | :---: |
 | ≥ 1992 | 1 jaar |
@@ -167,14 +137,15 @@ _Tabel 4.7.1.a: Toleranties voor de nauwkeurigheid van bouwjaren_
 | 1900 – 1949 | 5 jaar |
 | 1800 – 1899 | 10 jaar |
 | \< 1800 | 25 jaar |
+[Tabel 4.7.1.a: Toleranties voor de nauwkeurigheid van bouwjaren]
 
 Hierbij wordt opgemerkt dat het in uitzonderlijke gevallen (vooral bij zeer oude panden) onmogelijk kan blijken te zijn om het bouwjaar binnen bovenstaande toleranties te bepalen. In die gevallen geldt "wat niet kan, kan niet" en wordt de beste schatting geregistreerd.
 
-### 4.7.2 Tijdconsistentie
+### Tijdconsistentie
 
 Op elk moment in de tijd moet het eenduidig helder zijn welke gegevens er geldig zijn. De BAG maakt hiervoor gebruik van materiële en formele historie (zie [paragraaf 3.7.2](#372-historie)). Dit betekent dat het in de registratie op elk moment in de formele historie eenduidig helder moet zijn wat de materiële historie is van een object. Binnen deze materiële historie moet het vervolgens eenduidig helder zijn vanaf wanneer en tot wanneer welke gegevens geldig zijn.
 
-### 4.7.3 Tijdgeldigheid
+### Tijdgeldigheid
 
 Tijdgeldigheid is de geldigheid van de BAG-gegevens overeenkomstig de geregistreerde datum en tijd in de registratie. Voor het ontstaan, wijzigen en vervallen van objecten geldt de Nederlandse wettelijke tijd[^4-7-3-i]. Daarbij wordt in de winter de wintertijd aangehouden, oftewel Midden-Europese Tijd, en in de zomer de zomertijd, oftewel Midden-Europese Zomertijd. Om dubbele tijdstippen te voorkomen mag in de nacht van zomertijd naar wintertijd (oftewel de nacht van zaterdag op zondag in het laatste weekend van oktober wanneer de klok een uur teruggaat[^4-7-3-ii]) geen tijdstip worden toegekend aan (versies van) objecten.
 
@@ -182,7 +153,7 @@ Tijdgeldigheid is de geldigheid van de BAG-gegevens overeenkomstig de geregistre
 
 [^4-7-3-ii]: Besluit van 5 december 2001 tot vaststelling van de zomertijd, artikel 2: "De Midden-Europese zomertijd vangt met ingang van 2002 aan op de laatste zondag van de maand maart om 02.00 uur en eindigt op de laatste zondag van de maand oktober om 03.00 uur." [http://wetten.overheid.nl/jci1.3:c:BWBR0013087](http://wetten.overheid.nl/jci1.3:c:BWBR0013087#Artikel2)
 
-## 4.8 Aanwijzingen van mogelijke onjuistheden in de registratie
+## Aanwijzingen van mogelijke onjuistheden in de registratie
 
 Ondanks het zorgvuldig registreren van alle gegevens die voortkomen uit de reguliere levenscyclus van objecten, kunnen er aanwijzingen zijn dat er onjuiste gegevens in de BAG zijn terechtgekomen dan wel daarin ontbreken. Dit soort aanwijzingen kan in elke fase van de levenscyclus naar voren komen en doorkruist feitelijk de normale levenscyclus van planvorming, bouw, gebruik en sloop dan wel vaststelling en intrekking (zie [paragraaf 3.6](#36-levenscyclus)).
 
@@ -190,11 +161,9 @@ Het gebruik van de basisregistraties binnen de overheid is als uitgangspunt verp
 
 Op het moment dat een gebruiker gerede twijfel heeft[^4-8-i] over de juistheid van een authentiek gegeven van een BAG-object of over het ontbreken van een authentiek gegeven, dient een terugmelding op dit gegeven te worden gedaan. Op dat moment vervalt voor deze gebruiker de gebruiksplicht[^4-8-ii]. Op het moment dat de bronhouder van het betreffende BAG-object de terugmelding niet binnen twee werkdagen kan afhandelen, wordt het gegeven 'in onderzoek' geplaatst en mogen alle gebruikers een ander gegeven gebruiken[^4-8-iii]. De bronhouder dient het onderzoek binnen zes maanden af te ronden en het gegeven weer 'uit onderzoek' te halen, waarna de gebruiksplicht voor dit gegeven weer geldt.
 
-Als blijkt dat de waarde uit de terugmelding een hogere kwaliteit heeft dan die in de BAG, dan past de bronhouder het gegeven aan, ook als het verschil kleiner is dan de toegestane tolerantie op dit gegeven zoals gesteld in [hoofdstuk 4](gegevenskwaliteit.md) van deze catalogus (bijvoorbeeld voor geometrie of oppervlakte).
+Als blijkt dat de waarde uit de terugmelding een hogere kwaliteit heeft dan die in de BAG, dan past de bronhouder het gegeven aan, ook als het verschil kleiner is dan de toegestane tolerantie op dit gegeven zoals gesteld in [hoofdstuk 4](#4-gegevenskwaliteit) van deze catalogus (bijvoorbeeld voor geometrie of oppervlakte).
 
 Voor ieder BAG-object geldt dat de authentieke gegevens m.u.v. de unieke aanduiding (_identificatie_) in onderzoek geplaatst kunnen worden, uitgebreid met het gegeven _postcode_ van een nummeraanduiding. Tabel 4.8.a geeft per object aan welke gegevens (attributen en relaties) in onderzoek kunnen worden geplaatst.
-
-_Tabel 4.8.a: De gegevens die per object in onderzoek kunnen worden geplaatst_
 
 | BAG-Object | Gegevens in onderzoek te plaatsen |
 | :--- | :--- |
@@ -205,13 +174,10 @@ _Tabel 4.8.a: De gegevens die per object in onderzoek kunnen worden geplaatst_
 | Verblijfsobject | `geometrie`; `gebruiksdoel`; `oppervlakte`; `status`; `maakt onderdeel uit van gerelateerd pand`; `heeft als hoofdadres`; `heeft als nevenadres` |
 | Standplaats | `geometrie`; `status`; `heeft als hoofdadres`; `heeft als nevenadres` |
 | Ligplaats | `geometrie`; `status`; `heeft als hoofdadres`; `heeft als nevenadres` |
+[Tabel 4.8.a: De gegevens die per object in onderzoek kunnen worden geplaatst]
 
 [^4-8-i]: Een bestuursorgaan dat gegevens heeft verkregen uit de landelijke voorziening en gerede twijfel heeft over de juistheid van een authentiek gegeven of het ontbreken van een authentiek gegeven is op grond van artikel 37 van de Wet basisregistraties adressen en gebouwen verplicht tot terugmelden. Belanghebbenden mogen terugmelden op grond van artikel 38. [http://wetten.overheid.nl/jci1.3:c:BWBR0023466](http://wetten.overheid.nl/jci1.3:c:BWBR0023466#Hoofdstuk6_Artikel37)
 
 [^4-8-ii]: Wet basisregistraties adressen en gebouwen, artikel 35, lid 2: "Een bestuursorgaan kan een ander gegeven gebruiken dan een krachtens deze wet beschikbaar authentiek gegeven, ingeval: a. bij het desbetreffende authentieke gegeven de aanduiding als bedoeld in artikel 19, vierde lid, onderdeel a is geplaatst; b. bij het desbetreffende authentieke gegeven de aantekening «in onderzoek» is geplaatst; c. het met betrekking tot het desbetreffende authentieke gegeven een melding heeft gedaan als bedoeld in artikel 37; d. het door toepassing van het eerste lid zijn publiekrechtelijke taak niet naar behoren zou kunnen vervullen, of e. bij wettelijk voorschrift anders is bepaald dan in het eerste lid." [http://wetten.overheid.nl/jci1.3:c:BWBR0023466](http://wetten.overheid.nl/jci1.3:c:BWBR0023466#Hoofdstuk5_Paragraaf2_Artikel35) en [https://zoek.officielebekendmakingen.nl/stb-2017-60.html](https://zoek.officielebekendmakingen.nl/stb-2017-60.html)
 
 [^4-8-iii]: Wet basisregistraties adressen en gebouwen, artikel 35, lid 2: "Een bestuursorgaan kan een ander gegeven gebruiken dan een krachtens deze wet beschikbaar authentiek gegeven, ingeval: a. bij het desbetreffende authentieke gegeven de aanduiding als bedoeld in artikel 19, vierde lid, onderdeel a is geplaatst; b. bij het desbetreffende authentieke gegeven de aantekening «in onderzoek» is geplaatst; c. het met betrekking tot het desbetreffende authentieke gegeven een melding heeft gedaan als bedoeld in artikel 37; d. het door toepassing van het eerste lid zijn publiekrechtelijke taak niet naar behoren zou kunnen vervullen, of e. bij wettelijk voorschrift anders is bepaald dan in het eerste lid." [http://wetten.overheid.nl/jci1.3:c:BWBR0023466](http://wetten.overheid.nl/jci1.3:c:BWBR0023466#Hoofdstuk5_Paragraaf2_Artikel35) en [https://zoek.officielebekendmakingen.nl/stb-2017-60.html](https://zoek.officielebekendmakingen.nl/stb-2017-60.html)
-
-----
-
-## Voetnoten

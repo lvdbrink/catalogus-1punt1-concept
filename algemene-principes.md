@@ -1,31 +1,4 @@
----
-layout: page
-title: 3 Algemene principes
-date: 2018-03-05
-description:
-lijstvolgorde: 130
-toc:
-- 3 Algemene principes
-- 3.1 Bronhouders
-- 3.2 Coördinatenstelsel
-- 3.3 Geometrie en oppervlakte
-- 3.4 Relaties tussen BAG-objecten
-- 3.5 Topologie
-- 3.6 Levenscyclus
-- 3.7 Identificatie en historie
-- 3.8 Gebruiksdoel
----
-
-# Inhoud van hoofdstuk 3 Algemene principes
-{:.no_toc}
-
-* ToC
-{:toc}
-
----
-
-# 3 Algemene principes
-{:.no_toc}
+# Algemene principes
 
 Dit hoofdstuk beschrijft algemene principes die gelden voor de inhoud van de BAG.
 
@@ -40,27 +13,25 @@ Deze algemene principes hebben betrekking op:
 - identificatie en historie (zie [paragraaf 3.7](#37-identificatie-en-historie));
 - gebruiksdoel (zie [paragraaf 3.8](#38-gebruiksdoel)).
 
-## 3.1 Bronhouders
+## Bronhouders
 
 Elke gemeente is bronhouder van de BAG binnen de eigen gemeentegrenzen. Het grondgebied van de gemeente waarop een object is gelegen, bepaalt dus welke gemeente het object registreert. Het maakt hierbij geen verschil als gerelateerde objecten in een andere gemeente liggen en daarom een andere bronhouder hebben. De nummeraanduiding wordt opgevat als eigenschap van een adresseerbaar object en geregistreerd in de gemeente waarin het adresseerbare object is gelegen. In het bijzondere geval dat een pand of verblijfsobject is gelegen op de grens van twee of meer gemeenten, worden dat pand en de eventuele verblijfsobjecten geregistreerd in de gemeente op wier grondgebied het grootste gedeelte van het pand is gelegen.
 
-## 3.2 Coördinatenstelsel
+## Coördinatenstelsel
 
 Het toegepaste coördinatenstelsel voor de BAG is dat van de Rijksdriehoeksmeting[^3-2-i] (RD-stelsel). De coördinaten zijn op de millimeter nauwkeurig en de eenheid is meter. Elk coördinaat heeft maximaal drie decimalen. Zo nodig wordt daarvoor afgerond, zodanig dat als de vierde decimaal de waarde 0, 1, 2, 3 of 4 heeft, de derde decimaal niet wijzigt en als de vierde decimaal de waarde 5, 6, 7, 8 of 9 heeft, de derde decimaal met één wordt verhoogd. Als de op te hogen decimaal de waarde 9 had (en dus 10 zou moeten worden), herhaalt deze regel zich voor de voorliggende decimalen. Bijvoorbeeld een coördinaat 155004,329098765 komt in de BAG als `155004.329` en een coördinaat 155004,329598765 als `155004.330`.
 
 [^3-2-i]: Het stelsel van de Rijksdriehoeksmeting (RD) is het coördinatensysteem van Nederland. [http://www.kadaster.nl/web/Themas/Registraties/Rijksdriehoeksmeting/Rijksdriehoeksstelsel.htm](http://www.kadaster.nl/web/Themas/Registraties/Rijksdriehoeksmeting/Rijksdriehoeksstelsel.htm)
 
-## 3.3 Geometrie en oppervlakte
+## Geometrie en oppervlakte
 
 Deze paragraaf beschrijft algemene principes die gelden voor de inhoud van de BAG en die betrekking hebben op geometrie (zie [paragraaf 3.3.1](#331-geometrie)) en op gebruiksoppervlakte (zie [paragraaf 3.3.2](#332-gebruiksoppervlakte)).
 
-### 3.3.1 Geometrie
+### Geometrie
 
 De geometrie is een eigenschap van vijf van de zeven BAG-objecttypen. Deze geometrie betreft het loodrechte bovenaanzicht van het object met de ware vorm, afmeting en oriëntatie en positie ten opzichte van de aarde, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde.
 
 De geometrische representatie van de objecttypen in de BAG, waaronder de geldige geometrietypen, de geldige ruimtelijke dimensies van de geometrie en de geldige ruimtelijke dimensies van de coördinaten van de geometrie, is afhankelijk van het objecttype (zie tabel 3.3.1.a).
-
-_Tabel 3.3.1.a: De geometrische representatie van de objecttypen in de BAG_
 
 | Objecttype | Geometrietype | Dimensie van de geometrie | Dimensie van de coördinaten |
 | :---: | :---: | :---: | :---: |
@@ -71,6 +42,7 @@ _Tabel 3.3.1.a: De geometrische representatie van de objecttypen in de BAG_
 | Pand | Vlak | 2D | 2D of 3D |
 | Standplaats | Vlak | 2D | 2D |
 | Verblijfsobject | Punt of vlak | 0D of 2D | 2D of 3D |
+[Tabel 3.3.1.a: De geometrische representatie van de objecttypen in de BAG]
 
 De geometrie van openbare ruimten is niet opgenomen in de BAG. De gemeente dient het bij het benoemen van nieuwe openbare ruimten alsmede bij het wijzigen van bestaande openbare ruimten een voldoende gedetailleerde omschrijving of grafische weergave op te nemen die de ligging van de buitenruimte op enigerlei wijze aanwijst. De ligging van openbare ruimten is dus wel opgenomen in het brondocument, maar niet in de BAG-registratie.
 
@@ -80,21 +52,20 @@ De geometrie van een BAG-object heeft tweedimensionale coördinaten bij de objec
 
 Voor de beschrijving van geometrieën geldt het ISO 19107 Spatial Schema. Voor de uitwisseling wordt gebruik gemaakt van Geography Markup Language (GML) versie 3.1.1. In de BAG zijn de geometrieën conform het Simple Features profile versie 1.0 toegestaan[^3-3-1-i]. Voor de representatie van boogvormen wordt de benadering van de boog met lineaire lijnsegmenten toegepast, de zogenaamde gestrookte boog. De geometrietypen worden in het informatiemodel met hun ISO 19107-naam aangeduid (zie tabel 3.3.1.b).
 
-_Tabel 3.3.1.b: De geometrietypen in de BAG_
-
 | BAG-benaming | ISO 19107-naam |
 | :---: | :---: |
 | Punt | `GM_Point` |
 | Vlak | `GM_Surface` |
 | Multivlak | `GM_MultiSurface` |
+[Tabel 3.3.1.b: De geometrietypen in de BAG]
 
 [^3-3-1-i]: Open Geospatial Consortium (2011, 2012) _Geography Markup Language (GML) simple features profile (with Corrigendum)_, OGC® 10-100r3. [https://portal.opengeospatial.org/files/?artifact_id=42729](https://portal.opengeospatial.org/files/?artifact_id=42729)
 
-### 3.3.2 Gebruiksoppervlakte
+### Gebruiksoppervlakte
 
 De bepaling van de gebruiksoppervlakte van een verblijfsobject geschiedt conform hetgeen in NEN 2580:2007 is vastgelegd omtrent gebruiksoppervlakte. Tot de oppervlakte van een verblijfsobject wordt uitsluitend gerekend de binnenruimte, zoals gedefinieerd in NEN 2580:2007, van een dergelijk object. In afwijking van NEN 2580:2007 maken gemeenschappelijke ruimten geen onderdeel uit van de oppervlakte van een verblijfsobject. Er dienen dus geen percentages van de oppervlakte van gemeenschappelijke ruimten te worden toegerekend aan de oppervlakte van een verblijfsobject. Als basisvoorzieningen zich bevinden in een of meer nabijgelegen ondersteunende binnenruimten die geen deel uitmaken van een verblijfsobject maar wel exclusief ondersteunend zijn aan dat verblijfsobject (zie [stap 2 van paragraaf 10.8](objectafbakening.md#2-is-er-binnen-de-ruimte-sprake-van-aaneengesloten-samenhangend-gebruik)), dan tellen de gebruiksoppervlakten van deze nabijgelegen binnenruimten met basisvoorzieningen mee voor de gebruiksoppervlakte van het verblijfsobject.
 
-## 3.4 Relaties tussen BAG-objecten
+## Relaties tussen BAG-objecten
 
 De objecten in de BAG zijn onderling sterk aan elkaar gerelateerd. De relatie naar een ander object wordt gevormd door een verwijzing naar het identificerende attribuut. Bijvoorbeeld het identificerende attribuut van een woonplaats is de identificatie.
 
@@ -118,8 +89,6 @@ Panden hoeven geen verblijfsobjecten te bevatten. Op het moment dat er binnen ee
 
 Hiermee ontstaat een situatie dat er verschillende soorten relaties tussen panden en verblijfsobjecten kunnen bestaan. Tabel 3.4.a laat zien welke situaties mogelijk zijn. In deze tabel staat _n_ voor twee of meer panden en _m_ voor twee of meer verblijfsobjecten.
 
-_Tabel 3.4.a: De mogelijke relaties tussen panden en verblijfsobjecten_
-
 | Pand | Verblijfsobject | Omschrijving |
 | :---: | :---: | :--- |
 | 1 | 0 | Een pand zonder verblijfsobjecten. De situatie waarin een gebouw ondersteunend is aan een hoofdgebouw en alleen als zodanig van belang is, zonder dat het een zelfstandige eenheid van gebruik is. Een pand zonder verblijfsobject heeft geen adres. |
@@ -127,6 +96,7 @@ _Tabel 3.4.a: De mogelijke relaties tussen panden en verblijfsobjecten_
 | 1 | _m_ | Een pand met meerdere verblijfsobjecten. Dit is een veel voorkomende situatie bij bijvoorbeeld flatgebouwen met portiekwoningen of galerijwoningen. |
 | _n_ | 1 | Een verblijfsobject dat zich uitstrekt over meerdere panden. Dit is een situatie die soms voorkomt bij bijvoorbeeld doorbraken van winkels tussen enkele panden. |
 | _n_ | _m_ | Meerdere verblijfsobjecten die zich uitstrekken over meerdere panden. |
+[Tabel 3.4.a: De mogelijke relaties tussen panden en verblijfsobjecten]
 
 Uit deze relaties volgt ook de logische volgordelijkheid van het opvoeren van BAG-objecten in de registratie van een bronhouder:
 
@@ -142,7 +112,7 @@ Voor de relatie tussen Pand en Verblijfsobject geldt dat de administratieve rela
 
 Voor de verwijzing naar een Woonplaats geldt dat de ruimtelijke relatie leidend is boven de administratieve relatie.
 
-## 3.5 Topologie
+## Topologie
 
 Topologie beschrijft de onderlinge ruimtelijke relaties tussen de objecten, onafhankelijk van hun werkelijke positie (coördinaten). Een voorbeeld is dat een object gepositioneerd is in een ander object: 'ligt in' is dan de topologische relatie.
 
@@ -157,13 +127,16 @@ De BAG kent de volgende topologische relaties:
 - **Woonplaats**:
     Het gehele grondgebied van de gemeente dient te zijn ingedeeld in woonplaatsen. De geometrieën van de woonplaatsen dienen naadloos op elkaar aan te sluiten en mogen elkaar niet overlappen, oftewel de geometrische vereniging van iedere woonplaats binnen een gemeente komt overeen met de geometrische contour van het grondgebied van deze gemeente.
 
-## 3.6 Levenscyclus
+## Levenscyclus
 
 De levenscyclus van een BAG-object beschrijft de opeenvolgende fasen in de ontwikkeling van een object. Hierbij dient de werkelijkheid zoveel mogelijk in de registratie zichtbaar te zijn. In de verschillende fasen zijn er situaties die aanleiding geven tot het wijzigen van de gegevens van het object. De fase van ontwikkeling waarin een BAG-object zich bevindt, wordt met een eigenschap _status_ bij het object geregistreerd.
 
-In de levenscyclus van een pand en verblijfsobject wordt in hoofdlijnen een onderscheid gemaakt tussen de vier fasen planvorming, bouw, gebruik en sloop. Binnen deze fasen kunnen verschillende statussen aan het object worden toegekend. De levenscyclus van een pand of een verblijfsobject volgt meestal een logische volgorde van statussen (zie figuur 3.6.a), maar fasen in de levenscyclus mogen ook worden overgeslagen.
+In de levenscyclus van een pand en verblijfsobject wordt in hoofdlijnen een onderscheid gemaakt tussen de vier fasen planvorming, bouw, gebruik en sloop. Binnen deze fasen kunnen verschillende statussen aan het object worden toegekend. De levenscyclus van een pand of een verblijfsobject volgt meestal een logische volgorde van statussen (zie [[[#statusvolgorde]]]), maar fasen in de levenscyclus mogen ook worden overgeslagen.
 
-![Figuur 3.6.a: De logische volgordelijkheid van de ontwikkeling en status van panden en verblijfsobjecten](afbeeldingen/statusvolgorde.svg)
+<figure id="statusvolgorde">
+    <img src="media/statusvolgorde.svg" />
+    <figcaption>De logische volgordelijkheid van de ontwikkeling en status van panden en verblijfsobjecten</figcaption>
+</figure>
 
 In de levenscycli van standplaatsen, ligplaatsen, openbare ruimten, nummeraanduidingen en woonplaatsen wordt onderscheid gemaakt tussen het benoemen en het intrekken van deze objecten.
 
@@ -177,7 +150,7 @@ Verder gelden de volgende regels voor het toewijzen van een status aan een objec
     - een verblijfsobject de status `Verblijfobject in gebruik (niet ingemeten)` of `Verblijfsobject in gebruik` heeft bereikt, kan de status van het verblijfsobject niet meer terug naar `Verblijfsobject gevormd`, tenzij sprake is van een ten onrechte toegekende status.
 1. Elke statusovergang is toegestaan, mits deze een correctie betreft van een ten onrechte toegekende status.
 1. Als een vergunning wordt verleend voor de verbouwing van een pand en/of verblijfsobjecten, krijgen het pand en/of verblijfsobjecten die als gevolg van deze verbouwing als zodanig zullen blijven bestaan, maar waarvan een of meer gegevens in de BAG zullen wijzigen, de status `Verbouwing pand` of `Verbouwing verblijfsobject`. Als de verbouwing is afgerond, krijgt het pand de status `Pand in gebruik (niet ingemeten)` of `Pand in gebruik`, en de verblijfsobjecten de status `Verblijfsobject in gebruik (niet ingemeten)` of `Verblijfsobject in gebruik`.
-1. Als een vergunning wordt verleend voor het splitsen of samenvoegen van verblijfsobjecten, worden de nieuw te realiseren Verblijfsobjecten opgenomen met de status `Verblijfsobject gevormd`, terwijl de 'oude' Verblijfsobjecten hun status tijdens de verbouwing behouden (meestal `Verblijfsobject in gebruik`). Als de verbouwing is afgerond, worden de 'oude' Verblijfsobjecten ingetrokken, terwijl de nieuwe Verblijfsobjecten de status `Verblijfsobject in gebruik (niet ingemeten)` of `Verblijfsobject in gebruik` krijgen zodra zij gebruiksgereed zijn.
+1. Als een vergunning wordt verleend voor het splitsen of samenvoegen van verblijfsobjecten, worden de nieuw te realiseren Verblijfsobjecten worden opgenomen met de status `Verblijfsobject gevormd`, terwijl de 'oude' Verblijfsobjecten hun status tijdens de verbouwing behouden (meestal `Verblijfsobject in gebruik`). Als de verbouwing is afgerond, worden de 'oude' Verblijfsobjecten ingetrokken, terwijl de nieuwe Verblijfsobjecten de status `Verblijfsobject in gebruik (niet ingemeten)` of `Verblijfsobject in gebruik` krijgen zodra zij gebruiksgereed zijn.
 1. Als een vergunning wordt verleend voor het toevoegen van verblijfsobjecten aan bestaande panden of een verbouwing waarbij het aantal verblijfsobjecten verandert, worden nieuwe Verblijfsobjecten opgenomen met de status `Verblijfsobject gevormd`.
 1. Bij een verbouwing op een pand krijgen de eventueel aanwezige Verblijfsobjecten de status `Verbouwing verblijfsobject`, ongeacht of de pandcontouren wijzigen. Als de pandcontouren wijzigen, krijgt het Pand de status `Verbouwing pand`.
 1. Indien er meerdere verbouwingen aan een pand worden verricht, krijgt het pand na voltooiing van de laatste verbouwing de status `Pand in gebruik (niet ingemeten)` of `Pand in gebruik`.
@@ -188,11 +161,11 @@ Verder gelden de volgende regels voor het toewijzen van een status aan een objec
 1. Indien een object de status `niet gerealiseerd`, `ten onrechte opgevoerd`, `gesloopt` of `ingetrokken` heeft, is het feitelijk beëindigd en kan de status niet meer worden gewijzigd. Alleen objecten die ten onrechte een van deze statussen hebben gekregen, kunnen middels een schriftelijke verklaring herleven.
 1. Bij elke mutatie wordt de actuele status toegekend. Muteren in het verleden is niet toegestaan.
 
-## 3.7 Identificatie en historie
+## Identificatie en historie
 
 Deze paragraaf beschrijft algemene principes die gelden voor de inhoud van de BAG en die betrekking hebben op identificatie (zie [paragraaf 3.7.1](#371-identificatie)) en op historie (zie [paragraaf 3.7.2](#372-historie)).
 
-### 3.7.1 Identificatie
+### Identificatie
 
 Aan elk object wordt een uniek objectnummer (_identificatie_) toegekend. Zolang het object bestaat, mag deze identificatie niet veranderen.
 
@@ -204,8 +177,6 @@ Het viercijferige objectnummer van een woonplaats is de code die de beheerder va
 
 Het eerste deel van het zestiencijferige objectnummer bestaat uit vier numerieke posities met de gemeentecode, zoals gepubliceerd in _Tabel 33 Gemeententabel_ van de Rijksdienst voor Identiteitsgegevens[^3-7-1-ii]. De gemeentecode wordt toegekend aan de identificatie op basis van de gemeente waar het object ontstaat. Het tweede deel van het zestiencijferige objectnummer bestaat uit twee numerieke posities met de code voor het betreffende objecttype (zie tabel 3.7.1.a).
 
-_Tabel 3.7.1.a: De objecttypecodes van de BAG_
-
 | _Objecttypecode_ | BAG-object |
 | :---: | :---: |
 | `01` | Verblijfsobject |
@@ -214,6 +185,7 @@ _Tabel 3.7.1.a: De objecttypecodes van de BAG_
 | `20` | Nummeraanduiding |
 | `03` | Standplaats |
 | `30` | Openbare ruimte |
+[Tabel 3.7.1.a: De objecttypecodes van de BAG]
 
 Het derde deel van het zestiencijferige objectnummer bestaat uit tien numerieke posities met een binnen een gemeente uniek objectvolgnummer. Indien een objectvolgnummer uit minder dan tien posities bestaat dan dient deze ten behoeve van de uitwisseling te worden aangevuld met voorloopnullen.
 
@@ -233,7 +205,7 @@ De identificatie van een BAG-object wordt bepaald bij het ontstaan van het objec
 
 [^3-7-1-vi]: Nota van toelichting bij het Besluit van 6 juli 2017 tot wijziging van het Besluit basisregistraties adressen en gebouwen in verband met modernisering en vereenvoudiging van de registratie, algemeen deel, artikel 2.3: "Identificatiecodes bij splitsing en samenvoeging van woonplaatsen en openbare ruimten. Bij de evaluatie van de wet is de wens geuit om bij wijzigingen van woonplaatsen alleen de geometrie te wijzigen. De regels voor wijzigingen van woonplaatsen die in het tweede en derde lid van artikel 10 van het besluit waren opgenomen, brachten onder meer mee dat in veel gevallen mutaties in de registratie moesten worden doorgevoerd die voor gebruikers de indruk wekten dat verhuizingen naar andere woonplaatsen hadden plaatsgevonden, terwijl het uitsluitend ‘administratieve verhuizingen’ betrof. Bij wijziging van openbare ruimten deed zich hetzelfde voor. Het BAG Bronhouders- en Afnemers Overleg (BAG BAO) heeft nader onderzoek laten doen naar het behoud van de identificatiecode bij geometriewijzigingen. Op basis van de resultaten is door het BAG BAO geadviseerd artikel 10 van het besluit aan te passen. Het advies houdt in dat de identificatiecode van de woonplaats alleen wordt gewijzigd in het geval van splitsing van een woonplaats, voor zover de opgesplitste delen geen deel gaan uitmaken van een andere bestaande woonplaats. Bij samenvoeging van (een deel van) een woonplaats met een andere woonplaats wordt ofwel een van de woonplaatsen opgeheven (als deze geheel met een andere woonplaats wordt samengevoegd), ofwel wijzigt alleen de geometrie van beide woonplaatsen. Op die manier leidt de wijziging van de geometrie van een bestaande woonplaats niet tot wijziging van de identificatiecode van die woonplaats. Het BAG BAO heeft hierbij tevens geadviseerd om, gezien de overeenkomsten in de aard van de problematiek, dezelfde aanpak te volgen bij wijzigingen van openbare ruimten. Gelet op het uitgebrachte advies zijn het tweede en derde lid van artikel 10 heroverwogen. Geconcludeerd is dat opvolging van het advies aanbeveling verdient. Een en ander heeft geleid tot een formulering van artikel 10 die inhoudt dat bij splitsing van een woonplaats of openbare ruimte alleen een daardoor nieuw ontstane (oftewel niet reeds aanwezige) woonplaats of openbare ruimte van een nieuwe identificatiecode wordt voorzien. Dat aan een nieuw ontstaan object een identificatiecode wordt toegekend, volgt uit artikel 19, eerste lid, van de wet en het nieuwe artikel 8 van het besluit in samenhang met de bij het besluit behorende bijlage. Een bij splitsing betrokken reeds bestaande woonplaats of openbare ruimte wordt niet geacht op te houden te bestaan, maar ondergaat alleen een wijziging van de geometrie. Bij samenvoeging van twee woonplaatsen of openbare ruimten houdt de ene daarbij betrokken woonplaats of openbare ruimte op te bestaan, en wijzigt de geometrie van de andere woonplaats of openbare ruimte. Bij dat laatste bekijkt de gemeente per geval welk betrokken object logischerwijs geacht wordt voort te bestaan en welk object verdwijnt." [https://zoek.officielebekendmakingen.nl/stb-2017-311.html](https://zoek.officielebekendmakingen.nl/stb-2017-311.html)
 
-### 3.7.2 Historie
+### Historie
 
 Deze paragraaf beschrijft hoe de BAG invulling geeft aan historie.
 
@@ -255,16 +227,12 @@ In het conceptuele informatiemodel (zie hoofdstuk 5 Conceptueel model) zijn alle
 
 Aanvullend is het van belang wanneer gegevens vanuit de bronhouders succesvol zijn verwerkt in de landelijke voorziening, waarmee deze gegevens (binnen bepaalde termijn) beschikbaar zijn geworden voor afnemers van de landelijke voorziening. Hiervoor houdt de landelijke voorziening aanvullende datums bij.
 
-De implementatie van historie is beschreven in [hoofdstuk 9](implementatie.md).
+De implementatie van historie is beschreven in [hoofdstuk 9](implementatie.md#9-implementatie).
 
-## 3.8 Gebruiksdoel
+## Gebruiksdoel
 
 Bij een verblijfsobject worden een of meer gebruiksdoelen opgenomen. Onder het gebruiksdoel van een verblijfsobject wordt verstaan een overzicht van de (gecategoriseerde) gebruiksdoelen die bij het verlenen van een bouw- of omgevingsvergunning aan het betreffende verblijfsobject zijn toegekend. Deze gebruiksdoelen worden ook wel aangeduid als de bouwkundige bestemming conform de categorisering van het Bouwbesluit 2012[^3-8-i].
 
 Bij een geconstateerd verblijfsobject wordt het feitelijke gebruik als gebruiksdoel (of de gebruiksdoelen) opgenomen op grond van een document van constatering. Ook daarbij wordt de categorisering van het Bouwbesluit gevolgd. Na vaststelling van de legitimiteit van het geconstateerde verblijfsobject kan het geregistreerde gebruiksdoel zo nodig worden aangepast met gebruikmaking van die categorisering.
 
 [^3-8-i]: Bouwbesluit 2012, artikel 1.1, tweede lid: "Voor de toepassing van de bij of krachtens dit besluit gegeven voorschriften wordt voorts verstaan onder: bijeenkomstfunctie: gebruiksfunctie voor het samenkomen van personen voor kunst, cultuur, godsdienst, communicatie, kinderopvang, het verstrekken van consumpties voor het gebruik ter plaatse of het aanschouwen van sport; bouwwerk geen gebouw zijnde: bouwwerk of gedeelte daarvan, voor zover dat geen gebouw of onderdeel daarvan is; celfunctie: gebruiksfunctie voor dwangverblijf van personen; gezondheidszorgfunctie: gebruiksfunctie voor medisch onderzoek, verpleging, verzorging of behandeling; industriefunctie: gebruiksfunctie voor het bedrijfsmatig bewerken of opslaan van materialen en goederen, of voor agrarische doeleinden; kantoorfunctie: gebruiksfunctie voor administratie; logiesfunctie: gebruiksfunctie voor het bieden van recreatief verblijf of tijdelijk onderdak aan personen; onderwijsfunctie: gebruiksfunctie voor het geven van onderwijs; overige gebruiksfunctie: niet in dit lid benoemde gebruiksfunctie voor activiteiten waarbij het verblijven van personen een ondergeschikte rol speelt; sportfunctie: gebruiksfunctie voor het beoefenen van sport; winkelfunctie: gebruiksfunctie voor het verhandelen van materialen, goederen of diensten; woonfunctie: gebruiksfunctie voor het wonen." [http://wetten.overheid.nl/jci1.3:c:BWBR0030461](http://wetten.overheid.nl/jci1.3:c:BWBR0030461#Hoofdstuk1_Paragraaf1.1_Artikel1.1_Lid2)
-
-----
-
-## Voetnoten
