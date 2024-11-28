@@ -1,4 +1,4 @@
-# Bijlage A Begrippen & afkortingen
+# Begrippen & afkortingen
 
 Attribuutsoort
 : De typering van gelijksoortige gegevens die voor een objecttype van toepassing is. _(bron: MIM 1.0)_
