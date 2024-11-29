@@ -13,23 +13,25 @@ Concreet betekent de "gelegitimeerde werkelijkheid++" dat:
 
 Het registreren van de gelegitimeerde werkelijkheid wordt bereikt door (via de normale mutatieprocessen) gegevens uit onder meer omgevingsvergunningen, relevante meldingen en sloopvergunningen te verwerken in de registratie. Door onder meer het inrichten van procedures voor terugmeldingen en andere signalen en de verwerking daarvan in de registratie wordt ervoor gezorgd dat de "gelegitimeerde werkelijkheid++" in de registratie is vastgelegd.
 
-De andere signalen kunnen onder meer afkomstig zijn uit mutatiesignalering via luchtfoto's of toezicht en handhaving. Tijdens de uitvoering van deze aanvullende maatregelen kunnen nieuwe of gewijzigde BAG-objecten geconstateerd worden, bijvoorbeeld een nieuw Pand of Verblijfsobject waarvoor geen regulier brondocument zoals een vergunning beschikbaar is. Dergelijke geconstateerde nieuwe objecten worden geregistreerd in de BAG met een indicatie _geconstateerd_. Voor de gegevens van geconstateerde objecten geldt geen gebruiksplicht[^4-i] (zie ook [paragraaf 4.8](#48-aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie-van-objecten)). Van de gemeente wordt verwacht dat vervolgens alsnog een regulier brondocument wordt opgesteld (bijvoorbeeld een vergunning, verklaring vergunningvrij, verklaring dat het object is verwijderd), en verwerkt in de registratie, waarbij de indicatie _geconstateerd_ zal vervallen.
+De andere signalen kunnen onder meer afkomstig zijn uit mutatiesignalering via luchtfoto's of toezicht en handhaving. Tijdens de uitvoering van deze aanvullende maatregelen kunnen nieuwe of gewijzigde BAG-objecten geconstateerd worden, bijvoorbeeld een nieuw Pand of Verblijfsobject waarvoor geen regulier brondocument zoals een vergunning beschikbaar is. Dergelijke geconstateerde nieuwe objecten worden geregistreerd in de BAG met een indicatie _geconstateerd_. Voor de gegevens van geconstateerde objecten geldt geen gebruiksplicht (zie ook paragraaf [[[#aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie]]]). Van de gemeente wordt verwacht dat vervolgens alsnog een regulier brondocument wordt opgesteld (bijvoorbeeld een vergunning, verklaring vergunningvrij, verklaring dat het object is verwijderd), en verwerkt in de registratie, waarbij de indicatie _geconstateerd_ zal vervallen.
+
+<aside class="note" title="geen gebruiksplicht">
+Wet basisregistraties adressen en gebouwen, artikel 35, lid 2: "Een bestuursorgaan kan een ander gegeven gebruiken dan een krachtens deze wet beschikbaar authentiek gegeven, ingeval: a. bij het desbetreffende authentieke gegeven de aanduiding als bedoeld in artikel 19, vierde lid, onderdeel a is geplaatst; b. bij het desbetreffende authentieke gegeven de aantekening «in onderzoek» is geplaatst; c. het met betrekking tot het desbetreffende authentieke gegeven een melding heeft gedaan als bedoeld in artikel 37; d. het door toepassing van het eerste lid zijn publiekrechtelijke taak niet naar behoren zou kunnen vervullen, of e. bij wettelijk voorschrift anders is bepaald dan in het eerste lid." <a href="http://wetten.overheid.nl/jci1.3:c:BWBR0023466#Hoofdstuk5_Paragraaf2_Artikel35">http://wetten.overheid.nl/jci1.3:c:BWBR0023466</a> en <a href="https://zoek.officielebekendmakingen.nl/stb-2017-60.html">https://zoek.officielebekendmakingen.nl/stb-2017-60.html</a>
+</aside>
 
 Voor de gegevens in de BAG gelden de volgende kwaliteitscriteria:
 
-- volledigheid (zie [paragraaf 4.1](#41-volledigheid));
-- compleetheid (zie [paragraaf 4.2](#42-compleetheid));
-- juistheid (oftewel thematische nauwkeurigheid, zie [paragraaf 4.3](#43-juistheid));
-- actualiteit (zie [paragraaf 4.4](#44-actualiteit));
-- positionele nauwkeurigheid (zie [paragraaf 4.5](#45-positionele-nauwkeurigheid));
-- oppervlaktenauwkeurigheid (zie [paragraaf 4.6](#46-oppervlaktenauwkeurigheid));
-- tijd (zie [paragraaf 4.7](#47-tijd)).
+- volledigheid (zie paragraaf [[[#volledigheid]]]);
+- compleetheid (zie paragraaf [[[#compleetheid]]]);
+- juistheid (oftewel thematische nauwkeurigheid, zie paragraaf [[[#juistheid]]]);
+- actualiteit (zie paragraaf [[[#actualiteit]]]);
+- positionele nauwkeurigheid (zie paragraaf [[[#positionele-nauwkeurigheid]]]);
+- oppervlaktenauwkeurigheid (zie paragraaf [[[#oppervlaktenauwkeurigheid]]]);
+- tijd (zie paragraaf [[[#tijd]]]).
 
-[Paragraaf 4.8](#48-aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie-van-objecten) beschrijft wat er moet gebeuren als er aanwijzingen zijn dat er onjuiste gegevens in de BAG zijn terechtgekomen dan wel daarin ontbreken.
+Paragraaf [[[#aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie]]] beschrijft wat er moet gebeuren als er aanwijzingen zijn dat er onjuiste gegevens in de BAG zijn terechtgekomen dan wel daarin ontbreken.
 
 Deze kwaliteitscriteria zijn uitgewerkt in kwaliteitseisen. De vermelde waarden voor kwaliteit zijn minimumwaarden. Dat wil zeggen dat de aspecten van de BAG er minimaal aan moeten voldoen.
-
-[^4-i]: Wet basisregistraties adressen en gebouwen, artikel 35, lid 2: "Een bestuursorgaan kan een ander gegeven gebruiken dan een krachtens deze wet beschikbaar authentiek gegeven, ingeval: a. bij het desbetreffende authentieke gegeven de aanduiding als bedoeld in artikel 19, vierde lid, onderdeel a is geplaatst; b. bij het desbetreffende authentieke gegeven de aantekening «in onderzoek» is geplaatst; c. het met betrekking tot het desbetreffende authentieke gegeven een melding heeft gedaan als bedoeld in artikel 37; d. het door toepassing van het eerste lid zijn publiekrechtelijke taak niet naar behoren zou kunnen vervullen, of e. bij wettelijk voorschrift anders is bepaald dan in het eerste lid." [http://wetten.overheid.nl/jci1.3:c:BWBR0023466](http://wetten.overheid.nl/jci1.3:c:BWBR0023466#Hoofdstuk5_Paragraaf2_Artikel35) en [https://zoek.officielebekendmakingen.nl/stb-2017-60.html](https://zoek.officielebekendmakingen.nl/stb-2017-60.html)
 
 ## Volledigheid
 
@@ -48,11 +50,11 @@ Objecten waarvan het feitelijk bestaan na de invoering van de Wet basisregistrat
 
 ## Compleetheid
 
-Alle te registreren kenmerken (attributen) van de geregistreerde objecten zijn opgenomen in de registratie (zie [hoofdstuk 6](modelbeschrijving.md#6-objecttypen)).
+Alle te registreren kenmerken (attributen) van de geregistreerde objecten zijn opgenomen in de registratie (zie hoofdstuk [[[#objecttypen-0]]]).
 
-Alle in de BAG opgenomen gegevens zijn voorzien van een waarde, indien in deze catalogus is voorgeschreven dat het betreffende gegeven verplicht van een waarde moet zijn voorzien (zie [hoofdstuk 7](modelbeschrijving.md#7-attributen--relaties)).
+Alle in de BAG opgenomen gegevens zijn voorzien van een waarde, indien in deze catalogus is voorgeschreven dat het betreffende gegeven verplicht van een waarde moet zijn voorzien (zie hoofdstuk [[[#attributen-relaties]]]).
 
-De waarde van elk in de BAG opgenomen gegeven moet passen binnen de domeinwaarde die het betreffende gegeven overeenkomstig deze catalogus kan aannemen (zie [hoofdstuk 8](modelbeschrijving.md#8-domeinwaarden)).
+De waarde van elk in de BAG opgenomen gegeven moet passen binnen de domeinwaarde die het betreffende gegeven overeenkomstig deze catalogus kan aannemen (zie hoofdstuk [[[#domeinwaarden]]]).
 
 ## Juistheid
 
@@ -62,7 +64,7 @@ Bij elke versie van een object in de BAG is een verwijzing opgenomen naar het br
 
 Bij elke versie van een object in de BAG komt de waarde van een gewijzigd gegeven exact overeen met de waarde van dit gegeven in het bijbehorende brondocument, tenzij is bepaald dat een gegeven binnen bepaalde tolerantiegrenzen een afwijking mag kennen ten opzichte van de exacte waarde van het gegeven.
 
-De in de BAG opgenomen gegevens die volgens de in deze catalogus opgenomen regels voor die attribuutsoort aan een nauwkeurigheidseis moeten voldoen (zie dit [hoofdstuk 4](#4-gegevenskwaliteit) en [hoofdstuk 7](modelbeschrijving.md#7-attributen--relaties)), kennen een nauwkeurigheid zoals genoemd in die nauwkeurigheidseisen.
+De in de BAG opgenomen gegevens die volgens de in deze catalogus opgenomen regels voor die attribuutsoort aan een nauwkeurigheidseis moeten voldoen (zie dit hoofdstuk [[[#gegevenskwaliteit]]]) en hoofdstuk [[[#attributen-relaties]]]), kennen een nauwkeurigheid zoals genoemd in die nauwkeurigheidseisen.
 
 ## Actualiteit
 
@@ -88,17 +90,18 @@ Afhankelijk van welke status een pand heeft, heeft een pand een voorlopige (niet
 | Facet | Voorlopige, niet-ingemeten pandgeometrie | Definitieve, ingemeten pandgeometrie |
 | :--- | :--- | :--- |
 | Status van het pand | `Bouwvergunning verleend`; `Niet gerealiseerd pand`; `Bouw gestart`; `Pand in gebruik (niet ingemeten)`; `Verbouwing pand` | `Pand in gebruik`; `Sloopvergunning verleend`; `Pand gesloopt`; `Pand buiten gebruik` |
-| Nauwkeurigheidseis | De relatieve puntprecisie[^4-5-i] bedraagt 300 cm (oftewel een afronding naar boven van de absolute puntprecisie van 200 cm) | De relatieve puntprecisie bedraagt 30 cm (oftewel een afronding naar boven van de absolute puntprecisie van 20 cm) |
+| Nauwkeurigheidseis | De relatieve puntprecisie bedraagt 300 cm (oftewel een afronding naar boven van de absolute puntprecisie van 200 cm) | De relatieve puntprecisie bedraagt 30 cm (oftewel een afronding naar boven van de absolute puntprecisie van 20 cm) |
 | Detailleringseis | Details die meer dan 100 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen | Details die meer dan 25 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen. Als er sprake is van overbouw, wordt de gevellijn van de overbouw ingemeten, mits de overbouw tenminste een verdieping hoog is en tenminste een meter uitsteekt ten opzichte van de gevel op maaiveldniveau |
 [Tabel 4.5.a: Verschillen tussen de kwaliteitseisen voor de voorlopige en de definitieve geometrie van een pand]
+
+<aside class="note" title="relatieve puntprecisie">
+De mate waarin een meet- en verwerkingsproces bij herhaling dezelfde resultaten geeft, noemt men precisie. Als een hoge precisie wordt gehaald, betekent dit dat de mogelijke fout een kleine waarde heeft. Precisie is het resultaat van inwinning en verwerking. Dat betekent dat een hoge precisie bij de inwinning vaak 'verslechtert' door inpassing in een bestaand bestand. Zo zal een terrestische inwinning die is aangesloten op een fotogrammetrisch ingewonnen bestand, de precisie verkrijgen die geldt voor het bestaande, fotogrammetrisch ingewonnen bestand. Mede om deze reden worden vaak grotere mutaties (uitbreidingsgebieden), na controle op de betrouwbaarheid van de meting door analyse van een eerste fase vereffening, geplaatst binnen het bestaande bestand en niet daarop ingepast. Dit is ook bekend onder de term "dumpen".</aside>
 
 Voor de geometrie van woonplaatsen, standplaatsen en ligplaatsen geldt ten aanzien van de nauwkeurigheid en detaillering dat de relatieve puntprecisie van de omtrek 60 cm bedraagt (oftewel een afronding naar boven van de absolute puntprecisie van 40 cm). Waar een woonplaatsgrens langs een gemeentegrens loopt, moet de woonplaatsgrens bovendien zijn gelegen binnen een marge van 1 cm aan weerszijden van de gemeentegrens en mag de totale oppervlakte van de afwijkingen die zo kunnen ontstaan, niet meer bedragen dan 1 m².
 
 De BAG hanteert voor het beschrijven van de positionele nauwkeurigheid de zogenaamde interne precisie, ook bekend onder de naam relatieve precisie. Een uitgebreide theoretische beschrijving hiervan staat in de Handleiding voor de Technische werkzaamheden van het Kadaster uit 1996[^4-5-ii] (HTW 1996). De waarden voor de minimale toegestane kwaliteit van de positionele nauwkeurigheid zijn afrondingen van de in de HTW 1996 vermelde waarden voor de lengte van de halve lange as van de relatieve standaardellips tussen twee punten in. Zo heeft de ingemeten geometrie van een Pand een positionele nauwkeurigheid van 20 cm × √2. Afgerond is dit 30 cm. Het staat bronhouders vrij om zelf hogere nauwkeurigheidseisen te hanteren.
 
 De punten in het veld dienen te zijn ingemeten en in het bestand te zijn verwerkt volgens de regels zoals beschreven in de HTW 1996, inclusief het supplement voor detailmeting met GPS.
-
-[^4-5-i]: De mate waarin een meet- en verwerkingsproces bij herhaling dezelfde resultaten geeft, noemt men precisie. Als een hoge precisie wordt gehaald, betekent dit dat de mogelijke fout een kleine waarde heeft. Precisie is het resultaat van inwinning en verwerking. Dat betekent dat een hoge precisie bij de inwinning vaak 'verslechtert' door inpassing in een bestaand bestand. Zo zal een terrestische inwinning die is aangesloten op een fotogrammetrisch ingewonnen bestand, de precisie verkrijgen die geldt voor het bestaande, fotogrammetrisch ingewonnen bestand. Mede om deze reden worden vaak grotere mutaties (uitbreidingsgebieden), na controle op de betrouwbaarheid van de meting door analyse van een eerste fase vereffening, geplaatst binnen het bestaande bestand en niet daarop ingepast. Dit is ook bekend onder de term "dumpen".
 
 [^4-5-ii]: Handleiding voor de Technische werkzaamheden van het Kadaster (1996), ISBN 90-803078-1-5.
 
@@ -116,9 +119,9 @@ De BAG hanteert de norm ISO 8601:2004 voor het beschrijven van tijdsaspecten. De
 
 De kwaliteit van de tijdbeschrijving wordt beschreven met drie aspecten, te weten:
 
-- tijdnauwkeurigheid (zie [paragraaf 4.7.1](#471-tijdnauwkeurigheid));
-- tijdconsistentie (zie [paragraaf 4.7.2](#472-tijdconsistentie));
-- tijdgeldigheid (zie [paragraaf 4.7.3](#473-tijdgeldigheid)).
+- tijdnauwkeurigheid (zie paragraaf [[[#tijdnauwkeurigheid]]]);
+- tijdconsistentie (zie paragraaf [[[#tijdconsistentie]]]);
+- tijdgeldigheid (zie paragraaf [[[#tijdgeldigheid]]]).
 
 ### Tijdnauwkeurigheid
 
@@ -143,7 +146,7 @@ Hierbij wordt opgemerkt dat het in uitzonderlijke gevallen (vooral bij zeer oude
 
 ### Tijdconsistentie
 
-Op elk moment in de tijd moet het eenduidig helder zijn welke gegevens er geldig zijn. De BAG maakt hiervoor gebruik van materiële en formele historie (zie [paragraaf 3.7.2](#372-historie)). Dit betekent dat het in de registratie op elk moment in de formele historie eenduidig helder moet zijn wat de materiële historie is van een object. Binnen deze materiële historie moet het vervolgens eenduidig helder zijn vanaf wanneer en tot wanneer welke gegevens geldig zijn.
+Op elk moment in de tijd moet het eenduidig helder zijn welke gegevens er geldig zijn. De BAG maakt hiervoor gebruik van materiële en formele historie (zie paragraaf [[[#historie]]]). Dit betekent dat het in de registratie op elk moment in de formele historie eenduidig helder moet zijn wat de materiële historie is van een object. Binnen deze materiële historie moet het vervolgens eenduidig helder zijn vanaf wanneer en tot wanneer welke gegevens geldig zijn.
 
 ### Tijdgeldigheid
 
@@ -155,7 +158,7 @@ Tijdgeldigheid is de geldigheid van de BAG-gegevens overeenkomstig de geregistre
 
 ## Aanwijzingen van mogelijke onjuistheden in de registratie
 
-Ondanks het zorgvuldig registreren van alle gegevens die voortkomen uit de reguliere levenscyclus van objecten, kunnen er aanwijzingen zijn dat er onjuiste gegevens in de BAG zijn terechtgekomen dan wel daarin ontbreken. Dit soort aanwijzingen kan in elke fase van de levenscyclus naar voren komen en doorkruist feitelijk de normale levenscyclus van planvorming, bouw, gebruik en sloop dan wel vaststelling en intrekking (zie [paragraaf 3.6](#36-levenscyclus)).
+Ondanks het zorgvuldig registreren van alle gegevens die voortkomen uit de reguliere levenscyclus van objecten, kunnen er aanwijzingen zijn dat er onjuiste gegevens in de BAG zijn terechtgekomen dan wel daarin ontbreken. Dit soort aanwijzingen kan in elke fase van de levenscyclus naar voren komen en doorkruist feitelijk de normale levenscyclus van planvorming, bouw, gebruik en sloop dan wel vaststelling en intrekking (zie paragraaf [3.6](#36-levenscyclus)).
 
 Het gebruik van de basisregistraties binnen de overheid is als uitgangspunt verplicht en daarbij geldt tevens de plicht tot het terugmelden van fouten. Deze samenhangende plichten versterken de kwaliteit van de registraties.
 
