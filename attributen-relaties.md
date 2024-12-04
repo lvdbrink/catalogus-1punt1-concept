@@ -1372,9 +1372,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.1.a) en benoemt de gegevens
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
-| gemeentecode | \[1\] | Zie [paragraaf 7.9.1.1](#7911-gemeentecode) |
-| objecttypecode | \[1\] | Zie [paragraaf 7.9.1.2](#7912-objecttypecode) |
-| objectvolgnummer | \[1\] | Zie [paragraaf 7.9.1.3](#7913-objectvolgnummer) |
+| gemeentecode | \[1\] | Zie paragraaf [[[#gemeentecode]]] |
+| objecttypecode | \[1\] | Zie paragraaf [[[#objecttypecode]]] |
+| objectvolgnummer | \[1\] | Zie paragraaf [[[#objectvolgnummer]]] |
 [Tabel 7.9.1.b: Overzicht van de gegevens­elementen van het samengestelde attribuut objectnummering]
 
 #### gemeentecode
@@ -1459,8 +1459,8 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.2.a) en benoemt de gegevens
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
-| Punt | \[1\] | Zie [paragraaf 7.9.2.1](#7921-punt) |
-| Vlak | \[1\] | Zie [paragraaf 7.9.2.2](#7922-vlak) |
+| Punt | \[1\] | Zie paragraaf [[[#punt]]] |
+| Vlak | \[1\] | Zie paragraaf [[[#vlak]]] |
 [Tabel 7.9.2.b: Overzicht van de gegevens­elementen van het samengestelde attribuut puntOfVlak]
 
 #### punt
@@ -1522,8 +1522,8 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.3.a) en benoemt de gegevens
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
-| vlak | \[1\] | Zie [paragraaf 7.9.3.1](#7931-vlak) |
-| multivlak | \[1\] | Zie [paragraaf 7.9.3.2](#7932-multivlak) |
+| vlak | \[1\] | Zie paragraaf [[[#vlak]]] |
+| multivlak | \[1\] | Zie paragraaf [[[#multivlak]]] |
 [Tabel 7.9.3.b: Overzicht van de gegevens­elementen van het samengestelde attribuut vlakOfMultivlak]
 
 #### vlak
