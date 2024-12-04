@@ -1578,8 +1578,6 @@ Deze paragraaf geeft een beschrijving (zie tabel 7.9.3.a) en benoemt de gegevens
 
 | Naam | AN |
 | :--- | :--- |
-| **Definitie** | Datatype met een eigen naam, analoog aan CharacterString. De minimale lengte is tenminste een teken en de eerste positie mag geen spatie bevatten. Alle 335 tekens uit de gestandaardiseerde deelverzameling MES-1 van Unicode zijn toegestaan[^7-10-1-i] |
+| **Definitie** | Datatype met een eigen naam, analoog aan CharacterString. De minimale lengte is tenminste een teken en de eerste positie mag geen spatie bevatten. Alle 335 tekens uit de gestandaardiseerde deelverzameling MES-1 van Unicode zijn toegestaan[[ISO-IEC-10646]] p. 2076 |
 | **Stereotype** | «Simpel gegevenstype» |
 [Tabel 7.10.1.a: Beschrijving van het gegevenstype AN]
-
-[^7-10-1-i]: ISO/IEC (2010) _International Standard ISO/IEC 10646_, Final Committee Draft, Second edition, p. 2076. [http://unicode.org/L2/L2010/10038-fcd10646-main.pdf](http://unicode.org/L2/L2010/10038-fcd10646-main.pdf)

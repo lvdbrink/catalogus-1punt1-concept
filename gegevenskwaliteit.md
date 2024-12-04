@@ -99,11 +99,9 @@ De mate waarin een meet- en verwerkingsproces bij herhaling dezelfde resultaten 
 
 Voor de geometrie van woonplaatsen, standplaatsen en ligplaatsen geldt ten aanzien van de nauwkeurigheid en detaillering dat de relatieve puntprecisie van de omtrek 60 cm bedraagt (oftewel een afronding naar boven van de absolute puntprecisie van 40 cm). Waar een woonplaatsgrens langs een gemeentegrens loopt, moet de woonplaatsgrens bovendien zijn gelegen binnen een marge van 1 cm aan weerszijden van de gemeentegrens en mag de totale oppervlakte van de afwijkingen die zo kunnen ontstaan, niet meer bedragen dan 1 m².
 
-De BAG hanteert voor het beschrijven van de positionele nauwkeurigheid de zogenaamde interne precisie, ook bekend onder de naam relatieve precisie. Een uitgebreide theoretische beschrijving hiervan staat in de Handleiding voor de Technische werkzaamheden van het Kadaster uit 1996[^4-5-ii] (HTW 1996). De waarden voor de minimale toegestane kwaliteit van de positionele nauwkeurigheid zijn afrondingen van de in de HTW 1996 vermelde waarden voor de lengte van de halve lange as van de relatieve standaardellips tussen twee punten in. Zo heeft de ingemeten geometrie van een Pand een positionele nauwkeurigheid van 20 cm × √2. Afgerond is dit 30 cm. Het staat bronhouders vrij om zelf hogere nauwkeurigheidseisen te hanteren.
+De BAG hanteert voor het beschrijven van de positionele nauwkeurigheid de zogenaamde interne precisie, ook bekend onder de naam relatieve precisie. Een uitgebreide theoretische beschrijving hiervan staat in de Handleiding voor de Technische werkzaamheden van het Kadaster uit 1996 [[HTW-1996]]. De waarden voor de minimale toegestane kwaliteit van de positionele nauwkeurigheid zijn afrondingen van de in de HTW 1996 vermelde waarden voor de lengte van de halve lange as van de relatieve standaardellips tussen twee punten in. Zo heeft de ingemeten geometrie van een Pand een positionele nauwkeurigheid van 20 cm × √2. Afgerond is dit 30 cm. Het staat bronhouders vrij om zelf hogere nauwkeurigheidseisen te hanteren.
 
 De punten in het veld dienen te zijn ingemeten en in het bestand te zijn verwerkt volgens de regels zoals beschreven in de HTW 1996, inclusief het supplement voor detailmeting met GPS.
-
-[^4-5-ii]: Handleiding voor de Technische werkzaamheden van het Kadaster (1996), ISBN 90-803078-1-5.
 
 ## Oppervlaktenauwkeurigheid
 
@@ -150,7 +148,7 @@ Op elk moment in de tijd moet het eenduidig helder zijn welke gegevens er geldig
 
 ### Tijdgeldigheid
 
-Tijdgeldigheid is de geldigheid van de BAG-gegevens overeenkomstig de geregistreerde datum en tijd in de registratie. Voor het ontstaan, wijzigen en vervallen van objecten geldt de Nederlandse wettelijke tijd. Daarbij wordt in de winter de wintertijd aangehouden, oftewel Midden-Europese Tijd, en in de zomer de zomertijd, oftewel Midden-Europese Zomertijd. Om dubbele tijdstippen te voorkomen mag in de nacht van zomertijd naar wintertijd (oftewel de nacht van zaterdag op zondag in het laatste weekend van oktober wanneer de klok een uur teruggaat[^4-7-3-ii]) geen tijdstip worden toegekend aan (versies van) objecten.
+Tijdgeldigheid is de geldigheid van de BAG-gegevens overeenkomstig de geregistreerde datum en tijd in de registratie. Voor het ontstaan, wijzigen en vervallen van objecten geldt de Nederlandse wettelijke tijd. Daarbij wordt in de winter de wintertijd aangehouden, oftewel Midden-Europese Tijd, en in de zomer de zomertijd, oftewel Midden-Europese Zomertijd. Om dubbele tijdstippen te voorkomen mag in de nacht van zomertijd naar wintertijd (oftewel de nacht van zaterdag op zondag in het laatste weekend van oktober wanneer de klok een uur teruggaat) geen tijdstip worden toegekend aan (versies van) objecten.
 
 <aside class="note">
 Wet tot nadere regeling van de wettelijke tijd, artikel 1: "1 De wettelijke tijd in Nederland is de Midden-Europese tijd. 2 Wij kunnen bij algemene maatregel van bestuur een tijdvak van het jaar bepalen, waarin de Midden-Europese Zomertijd geldt." <a href="http://wetten.overheid.nl/jci1.3:c:BWBR0002288#Artikel1">http://wetten.overheid.nl/jci1.3:c:BWBR0002288</a>

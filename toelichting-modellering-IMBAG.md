@@ -2,9 +2,9 @@
 
 IMBAG past het KKG-metamodel toe, versie 1.0. Het KKG-metamodel is een nationaal metamodel voor informatiemodellering ontwikkeld door KING, Kadaster en Geonovum (KKG). Het metamodel is beschikbaar in versie 1.0 op de website van Geonovum: [https://www.geonovum.nl/wegwijzer/standaarden/nationaal-metamodel-voor-informatiemodellering](https://www.geonovum.nl/wegwijzer/standaarden/nationaal-metamodel-voor-informatiemodellering).
 
-Voor IMBAG-modellen die afgeleid worden van deze catalogus, geldt ook dat deze gebaseerd zijn op het KKG-metamodel[^TMK-i].
+Voor IMBAG-modellen die afgeleid worden van deze catalogus, geldt ook dat deze gebaseerd zijn op het KKG-metamodel.
 
-[^TMK-i]: Indien dit niet mogelijk is, moet beschreven worden wat de verhoudingen zijn tussen de gebruikte modellering en de KKG-modellering.
+<aside class="note">Indien dit niet mogelijk is, moet beschreven worden wat de verhoudingen zijn tussen de gebruikte modellering en de KKG-modellering.</aside>
 
 Zoals aangegeven in metamodel KKG 1.0, paragraaf 1.7 geeft IMBAG aan welke invulling en keuzes de BAG heeft gemaakt bij de toepassing van het metamodel. Dit wordt de KKG-extensie voor IMBAG genoemd en is hieronder beschreven.
 

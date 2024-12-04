@@ -50,7 +50,7 @@ De geometrie van nummeraanduidingen is niet opgenomen in de BAG. De nummeraandui
 
 De geometrie van een BAG-object heeft tweedimensionale coördinaten bij de objecttypen Woonplaats, Standplaats en Ligplaats en allemaal twee- of allemaal driedimensionale coördinaten bij de objecttypen Pand en Verblijfsobject. Dit geldt voor elke geldige ruimtelijke dimensie van de geometrie. Elke vlakgeometrie moet een plat vlak zonder enige kromming (oftewel: planair) zijn, ook als deze driedimensionale coördinaten heeft.
 
-Voor de beschrijving van geometrieën geldt het ISO 19107 Spatial Schema. Voor de uitwisseling wordt gebruik gemaakt van Geography Markup Language (GML) versie 3.1.1. In de BAG zijn de geometrieën conform het Simple Features profile versie 1.0 toegestaan[^3-3-1-i]. Voor de representatie van boogvormen wordt de benadering van de boog met lineaire lijnsegmenten toegepast, de zogenaamde gestrookte boog. De geometrietypen worden in het informatiemodel met hun ISO 19107-naam aangeduid (zie tabel 3.3.1.b).
+Voor de beschrijving van geometrieën geldt het ISO 19107 Spatial Schema. Voor de uitwisseling wordt gebruik gemaakt van Geography Markup Language (GML) versie 3.1.1. In de BAG zijn de geometrieën conform het Simple Features profile versie 1.0 toegestaan [[GML-SF]]. Voor de representatie van boogvormen wordt de benadering van de boog met lineaire lijnsegmenten toegepast, de zogenaamde gestrookte boog. De geometrietypen worden in het informatiemodel met hun ISO 19107-naam aangeduid (zie tabel 3.3.1.b).
 
 | BAG-benaming | ISO 19107-naam |
 | :---: | :---: |
@@ -58,8 +58,6 @@ Voor de beschrijving van geometrieën geldt het ISO 19107 Spatial Schema. Voor d
 | Vlak | `GM_Surface` |
 | Multivlak | `GM_MultiSurface` |
 [Tabel 3.3.1.b: De geometrietypen in de BAG]
-
-[^3-3-1-i]: Open Geospatial Consortium (2011, 2012) _Geography Markup Language (GML) simple features profile (with Corrigendum)_, OGC® 10-100r3. [https://portal.opengeospatial.org/files/?artifact_id=42729](https://portal.opengeospatial.org/files/?artifact_id=42729)
 
 ### Gebruiksoppervlakte
 

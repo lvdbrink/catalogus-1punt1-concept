@@ -82,4 +82,35 @@ let respecConfig = {
           uri: "template.pdf",
       },
   ],
+  localBiblio: {
+    "GML-SF":{
+      href:"https://portal.opengeospatial.org/files/?artifact_id=42729",
+      title:"Geography Markup Language (GML) simple features profile (with Corrigendum), OGC® 10-100r3",
+    authors: ["Linda van den Brink", "Clemens Portele", "Panagiotis (Peter) A. Vretanos"],
+      date: "5 April 2012",
+      publisher:"Open Geospatial Consortium",
+    },
+    "ISO-IEC-10646":{
+      href:"http://unicode.org/L2/L2010/10038-fcd10646-main.pdf",
+      title:"ISO/IEC (2010) _International Standard ISO/IEC 10646, Second edition",
+      status:"Final Committee Draft",
+      publisher:"ISO/IEC"
+    },
+    "HTW-1996":{
+      title:"Handleiding voor de Technische werkzaamheden van het Kadaster",
+      date: "1996",
+      isbn:"90-803078-1-5"
+    },
+    "archiefwet-1995":{
+      title: "Archiefwet 1995",
+      href:"http://wetten.overheid.nl/jci1.3:c:BWBR0007376",
+    },
+    "MIM":{
+      href:"https://docs.geostandaarden.nl/mim/def-st-mim10-20170614/",
+      title:"MIM - Metamodel Informatie Modellering versie 1.0",
+      date:"14-06-2017",
+    }
+  }
 };
+
+
