@@ -2,7 +2,7 @@
 
 De Wet basisregistratie adressen en gebouwen stelt dat een afnemer BAG-gegevens kan afnemen bij zowel bronhouder als Landelijke Voorziening. Belangrijk uitgangspunt is daarbij dat de afnemer bij bronhouder en landelijke voorziening dezelfde gegevens krijgt.
 
-Om die reden is het van belang om eisen vast te leggen aan de implementatie van bepaalde aspecten die worden toegevoegd bij de implementatie van het conceptuele model in een logisch model. Het logisch model is de basis voor het maken van berichtschema's (StUF) en applicatieschema's (NEN 3610) voor de uitwisseling van BAG-gegevens tussen bronhouders en landelijke voorziening en tussen landelijke voorziening en afnemers. Het betreft eisen aan de implementatie van historie (zie [paragraaf 9.1](#91-historie)), in onderzoek (zie [paragraaf 9.2](#92-in-onderzoek)), en formele patronen om de consistentie van deze gegevens in de hele BAG-keten te borgen (zie [paragraaf 9.3](#93-formele-patronen)).
+Om die reden is het van belang om eisen vast te leggen aan de implementatie van bepaalde aspecten die worden toegevoegd bij de implementatie van het conceptuele model in een logisch model. Het logisch model is de basis voor het maken van berichtschema's (StUF) en applicatieschema's (NEN 3610) voor de uitwisseling van BAG-gegevens tussen bronhouders en landelijke voorziening en tussen landelijke voorziening en afnemers. Het betreft eisen aan de implementatie van historie (zie paragraaf [[[#historie]]]), in onderzoek (zie paragraaf [[[#in-onderzoek]]]), en formele patronen om de consistentie van deze gegevens in de hele BAG-keten te borgen (zie paragraaf [[[#formele-patronen]]]).
 
 ## Historie
 
@@ -103,7 +103,7 @@ Met het opnemen van het attribuut Inactief met een datum-tijd wordt kenbaar gema
 
 ### Samenvatting
 
-Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen [9.1.1](#911-materiële-en-formele-historie), [9.1.2](#912-object--en-versiehistorie) en [9.1.3](#913-levenscyclus) van de implementatie van historie in de BAG (zie tabel 9.1.4.a).
+Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen [[[#materiele-en-formele-historie]]], [[[#object-en-versiehistorie]]] en [[[#levenscyclus-0]]] van de implementatie van historie in de BAG (zie tabel 9.1.4.a).
 
 | Attribuut | Kardinaliteit | Type | Opmaak |
 | :---: | :---: | :---: | :---: |
@@ -118,13 +118,13 @@ Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen [9.1.1
 
 ## In onderzoek
 
-In [paragraaf 4.8](inleiding-principes-kwaliteit.md#48-aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie-van-objecten) wordt beschreven welke attributen en relaties van objecten in onderzoek geplaatst kunnen worden. In deze paragraaf wordt gespecificeerd op welke wijze in onderzoek moet worden geïmplementeerd in een logisch model IMBAG.
+In paragraaf [[[#aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie]]] wordt beschreven welke attributen en relaties van objecten in onderzoek geplaatst kunnen worden. In deze paragraaf wordt gespecificeerd op welke wijze in onderzoek moet worden geïmplementeerd in een logisch model IMBAG.
 
 In onderzoek wordt geïmplementeerd middels een object Onderzoek. In dit objecttype worden de volgende gegevens van een inonderzoekplaatsing vastgelegd:
 
 1. De identificatie van het object dat in onderzoek is geplaatst.
 
-2. De naam van het kenmerk of de attribuutsoort of de relatiesoort van het object dat in onderzoek is geplaatst. Per object kunnen bepaalde attributen en relaties in onderzoek worden geplaatst conform [paragraaf 4.8](inleiding-principes-kwaliteit.md#48-aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie-van-objecten) van deze catalogus.
+2. De naam van het kenmerk of de attribuutsoort of de relatiesoort van het object dat in onderzoek is geplaatst. Per object kunnen bepaalde attributen en relaties in onderzoek worden geplaatst conform paragraaf [[[#aanwijzingen-van-mogelijke-onjuistheden-in-de-registratie]]] van deze catalogus.
 
 3. Het nummer van het document waarin de grondslag van het onderzoek wordt vastgelegd. Dit wordt vastgelegd in het attribuut documentnummer.
 
@@ -142,7 +142,7 @@ In onderzoek wordt geïmplementeerd middels een object Onderzoek. In dit objectt
 
 ## Formele patronen
 
-In [hoofdstuk 5](conceptueelmodel.md#5-conceptueel-model) en [hoofdstuk 8](modelbeschrijving.md#8-domeinwaarden) worden de patronen van attributen in mensleesbare taal beschreven. Om interpretatieverschillen en inconsistentie in de BAG-keten te voorkomen specificeert tabel 9.3.a deze patronen als formele patronen met behulp van reguliere expressies.
+In hoofdstuk [[[#conceptueel-model]]] en hoofdstuk [[[#domeinwaarden]]] worden de patronen van attributen in mensleesbare taal beschreven. Om interpretatieverschillen en inconsistentie in de BAG-keten te voorkomen specificeert tabel 9.3.a deze patronen als formele patronen met behulp van reguliere expressies.
 
 | Objecttype | Attribuut | Mensleesbare taal | Formeel patroon |
 | :---: | :---: | :--- | :---: |
