@@ -16,8 +16,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.1.a) en benoemt de attributen
 | **Populatie** | De basisregistratie adressen en gebouwen bevat alle officieel als zodanig vastgestelde woonplaatsen op het Nederlandse grondgebied. Nieuwe woonplaatsen worden in de basisregistratie adressen en gebouwen opgenomen op basis van daartoe aangewezen brondocumenten waarin het ontstaan van de woonplaats als zodanig is vastgelegd. Daarnaast bevat de basisregistratie adressen en gebouwen alle geconstateerde woonplaatsen in de zin van artikel 2, tweede lid, onderdeel b, sub 3 van de wet. De gegevens over woonplaatsen blijven in de basisregistratie aanwezig, ook indien de woonplaats als zodanig wordt opgeheven. De basisregistratie bevat in principe geen gegevens over woonplaatsen die voor 1 juli 2009 zijn opgeheven. |
 | **Kwaliteit** | Een Woonplaats bestaat als hiertoe door het bevoegde gemeentelijke orgaan als zodanig een besluit is genomen. |
 | **Toelichting** | Zie paragraaf [[[#indeling-in-woonplaatsen]]] voor de interpretatie van de definitie van het objecttype Woonplaats. |
-| **Indicatie abstract object** | Nee |
-[Tabel 6.1.a: Beschrijving van het objecttype Woonplaats]
+| **Indicatie abstract object** | Nee \|
+
+_Tabel 6.1.a: Beschrijving van het objecttype Woonplaats_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
@@ -27,8 +28,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.1.a) en benoemt de attributen
 | status | \[1\] | Zie paragraaf [[[#status]]] |
 | geconstateerd | \[1\] | Zie paragraaf [[[#geconstateerd]]] |
 | documentdatum | \[1\] | Zie paragraaf [[[#documentdatum]]] |
-| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer]]] |
-[Tabel 6.1.b: Overzicht attributen]
+| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer]]] \|
+
+_Tabel 6.1.b: Overzicht attributen_
 
 ## Openbare ruimte
 
@@ -46,8 +48,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.2.a) en benoemt de attributen
 | **Populatie** | De basisregistratie adressen en gebouwen bevat alle officieel als zodanig aangewezen openbare ruimten op het Nederlands grondgebied. Nieuwe openbare ruimten worden in de basisregistratie adressen en gebouwen opgenomen op basis van daartoe aangewezen brondocumenten waarin het ontstaan van de openbare ruimte als zodanig is vastgelegd. Daarnaast bevat de basisregistratie adressen en gebouwen alle geconstateerde openbare ruimten in de zin van artikel 2, tweede lid, onderdeel b, sub 4 van de wet. De gegevens over openbare ruimten blijven in de basisregistratie adressen en gebouwen aanwezig, ook indien de openbare ruimte als zodanig wordt ingetrokken. De basisregistratie adressen en gebouwen bevat in principe geen gegevens over openbare ruimten die voor 1 juli 2009 zijn ingetrokken. |
 | **Kwaliteit** | Een Openbare ruimte bestaat als hiertoe door het bevoegde gemeentelijke orgaan als zodanig een besluit is genomen. |
 | **Toelichting** | Als openbare ruimte worden onder meer aangemerkt wegen, water, spoorbanen en landschappelijke gebieden. Zie paragraaf [[[#vaststelling-van-openbare-ruimten]]] voor de interpretatie van de definitie van het objecttype Openbare ruimte. |
-| **Indicatie abstract object** | Nee |
-[Tabel 6.2.a: Beschrijving van het objecttype Openbare ruimte]
+| **Indicatie abstract object** | Nee \|
+
+_Tabel 6.2.a: Beschrijving van het objecttype Openbare ruimte_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
@@ -57,13 +60,15 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.2.a) en benoemt de attributen
 | status | \[1\] | Zie paragraaf [[[#status-0]]] |
 | geconstateerd | \[1\] | Zie paragraaf [[[#geconstateerd-0]]] |
 | documentdatum | \[1\] | Zie paragraaf [[[#documentdatum-0]]] |
-| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-0]]] |
-[Tabel 6.2.b: Overzicht attributen]
+| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-0]]] \|
+
+_Tabel 6.2.b: Overzicht attributen_
 
 | Relatiesoort | Relatierol | Kardinaliteit | Beschrijving |
 | :---: | :---: | :---: | :--- |
-| ligt in | gerelateerde woonplaats | \[1\] | Zie paragraaf [[[#relatie-ligt-in-gerelateerde-woonplaats]]] |
-[Tabel 6.2.c: Overzicht relaties]
+| ligt in | gerelateerde woonplaats | \[1\] | Zie paragraaf [[[#relatie-ligt-in-gerelateerde-woonplaats]]] \|
+
+_Tabel 6.2.c: Overzicht relaties_
 
 ## Nummeraanduiding
 
@@ -81,8 +86,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.3.a) en benoemt de attributen
 | **Populatie** | De basisregistratie adressen en gebouwen bevat alle officieel als zodanig toegekende nummeraanduidingen op het Nederlandse grondgebied. Nieuwe nummeraanduidingen worden in de basisregistratie adressen en gebouwen opgenomen op basis van daartoe aangewezen brondocumenten waarin het ontstaan van de nummeraanduiding als zodanig is vastgelegd. Daarnaast bevat de basisregistratie adressen en gebouwen alle geconstateerde nummeraanduidingen in de zin van artikel 2, tweede lid, onderdeel b, sub 5 van de wet. De gegevens over nummeraanduidingen blijven in de basisregistratie adressen en gebouwen aanwezig, ook indien de nummeraanduiding als zodanig wordt ingetrokken. De basisregistratie adressen en gebouwen bevat in principe geen gegevens over nummeraanduidingen die voor 1 juli 2009 zijn ingetrokken. |
 | **Kwaliteit** | Een Nummeraanduiding bestaat als hiertoe door het bevoegde gemeentelijke orgaan als zodanig een besluit is genomen. Een Nummeraanduiding heeft altijd betrekking op een enkel adresseerbaar object. |
 | **Toelichting** | Nummeraanduidingen kunnen alleen worden toegekend aan als zodanig aangewezen adresseerbare objecttypen. De thans aangewezen adresseerbare objecttypen zijn verblijfsobjecten, standplaatsen en ligplaatsen. Zie paragraaf [[[#toekenning-van-nummeraanduidingen]]] voor de interpretatie van de definitie van het objecttype Nummeraanduiding. |
-| **Indicatie abstract object** | Nee |
-[Tabel 6.3.a: Beschrijving van het objecttype Nummeraanduiding]
+| **Indicatie abstract object** | Nee \|
+
+_Tabel 6.3.a: Beschrijving van het objecttype Nummeraanduiding_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
@@ -95,14 +101,16 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.3.a) en benoemt de attributen
 | status | \[1\] | Zie paragraaf [[[#status-1]]] |
 | geconstateerd | \[1\] | Zie paragraaf [[[#geconstateerd-1]]] |
 | documentdatum | \[1\] | Zie paragraaf [[[#documentdatum-1]]] |
-| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-1]]] |
-[Tabel 6.3.b: Overzicht attributen]
+| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-1]]] \|
+
+_Tabel 6.3.b: Overzicht attributen_
 
 | Relatiesoort | Relatierol | Kardinaliteit | Beschrijving |
 | :---: | :---: | :---: | :--- |
 | ligt in | gerelateerde woonplaats | \[0..1\] | Zie paragraaf [[[#relatie-ligt-in-gerelateerde-woonplaats]]] |
-| ligt aan | gerelateerde openbare ruimte | \[1\] | Zie paragraaf [[[#relatie-ligt-aan-gerelateerde-openbare-ruimte]]] |
-[Tabel 6.3.c: Overzicht relaties]
+| ligt aan | gerelateerde openbare ruimte | \[1\] | Zie paragraaf [[[#relatie-ligt-aan-gerelateerde-openbare-ruimte]]] \|
+
+_Tabel 6.3.c: Overzicht relaties_
 
 ## Pand
 
@@ -120,8 +128,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.4.a) en benoemt de attributen
 | **Populatie** | De basisregistratie adressen en gebouwen omvat gegevens over alle panden op het Nederlands grondgebied, die voldoen aan bovenstaande objectdefinitie. Gegevens over een nieuw pand worden in de basisregistratie adressen en gebouwen opgenomen bij verlening van de voor het realiseren van het pand benodigde toestemming of het opmaken van een in artikel 10, onderdeel b van de wet genoemd document van constatering. De gegevens over panden blijven in de basisregistratie adressen en gebouwen aanwezig, ook indien het pand als zodanig niet meer aanwezig is. De basisregistratie adressen en gebouwen bevat in principe geen gegevens over panden die op 1 juli 2009 niet meer als zodanig aanwezig waren. |
 | **Kwaliteit** | |
 | **Toelichting** | Zie paragraaf [[[#afbakening-van-panden]]] voor de interpretatie van de definitie van het objecttype Pand. |
-| **Indicatie abstract object** | Nee |
-[Tabel 6.4.a: Beschrijving van het objecttype Pand]
+| **Indicatie abstract object** | Nee \|
+
+_Tabel 6.4.a: Beschrijving van het objecttype Pand_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
@@ -131,8 +140,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.4.a) en benoemt de attributen
 | status | \[1\] | Zie paragraaf [[[#status-2]]] |
 | geconstateerd | \[1\] | Zie paragraaf [[[#geconstateerd-2]]] |
 | documentdatum | \[1\] | Zie paragraaf [[[#documentdatum-2]]] |
-| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-2]]] |
-[Tabel 6.4.b: Overzicht attributen]
+| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-2]]] \|
+
+_Tabel 6.4.b: Overzicht attributen_
 
 ## Adresseerbaar object
 
@@ -150,14 +160,16 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.5.a) en benoemt de relaties (
 | **Populatie** | |
 | **Kwaliteit** | |
 | **Toelichting** | Een Adresseerbaar object is een Standplaats, een Ligplaats of een Verblijfsobject. |
-| **Indicatie abstract object** | Ja |
-[Tabel 6.5.a: Beschrijving van het objecttype Adresseerbaar object]
+| **Indicatie abstract object** | Ja \|
+
+_Tabel 6.5.a: Beschrijving van het objecttype Adresseerbaar object_
 
 | Relatiesoort | Relatierol | Kardinaliteit | Beschrijving |
 | :---: | :---: | :---: | :--- |
 | heeft als hoofdadres | hoofdadres | \[1\] | Zie paragraaf [[[#relatie-heeft-als-hoofdadres-hoofdadres]]] |
-| heeft als nevenadres | nevenadres | \[0..\*\] | Zie paragraaf [[[#relatie-heeft-als-nevenadres-nevenadres]]] |
-[Tabel 6.5.b: Overzicht relaties]
+| heeft als nevenadres | nevenadres | \[0..\*\] | Zie paragraaf [[[#relatie-heeft-als-nevenadres-nevenadres]]] \|
+
+_Tabel 6.5.b: Overzicht relaties_
 
 ## Ligplaats
 
@@ -175,8 +187,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.6.a) en benoemt de attributen
 | **Populatie** | De basisregistratie adressen en gebouwen omvat gegevens over alle ligplaatsen op het Nederlands grondgebied, die daartoe officieel als zodanig zijn aangewezen. Nieuwe ligplaatsen worden in de basisregistratie adressen en gebouwen opgenomen op basis van daartoe aangewezen brondocumenten, waarin het ontstaan van de ligplaats als zodanig is vastgelegd. Daarnaast bevat de basisregistratie adressen en gebouwen alle geconstateerde ligplaatsen in de zin van artikel 2, tweede lid, onderdeel b, sub 2 van de wet. De gegevens over ligplaatsen blijven in de basisregistratie adressen en gebouwen aanwezig, ook indien de ligplaats als zodanig wordt ingetrokken. De basisregistratie adressen en gebouwen bevat in principe geen gegevens over ligplaatsen die voor 1 juli 2009 zijn ingetrokken. |
 | **Kwaliteit** | Een Ligplaats bestaat op het moment dat er sprake is van een aanwijzing als ligplaats door het bevoegde gemeentelijke orgaan. |
 | **Toelichting** | Zie paragraaf [[[#afbakening-van-ligplaatsen]]] voor de interpretatie van de definitie van het objecttype Ligplaats. |
-| **Indicatie abstract object** | Nee |
-[Tabel 6.6.a: Beschrijving van het objecttype Ligplaats]
+| **Indicatie abstract object** | Nee \|
+
+_Tabel 6.6.a: Beschrijving van het objecttype Ligplaats_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
@@ -185,8 +198,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.6.a) en benoemt de attributen
 | geometrie | \[1\] | Zie paragraaf [[[#geometrie-2]]] |
 | geconstateerd | \[1\] | Zie paragraaf [[[#geconstateerd-3]]] |
 | documentdatum | \[1\] | Zie paragraaf [[[#documentdatum-3]]] |
-| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-3]]] |
-[Tabel 6.6.b: Overzicht attributen]
+| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-3]]] \|
+
+_Tabel 6.6.b: Overzicht attributen_
 
 ## Standplaats
 
@@ -204,8 +218,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.7.a) en benoemt de attributen
 | **Populatie** | De basisregistratie adressen en gebouwen omvat gegevens over alle standplaatsen op het Nederlands grondgebied, die daartoe officieel als zodanig zijn aangewezen. Nieuwe standplaatsen worden in de basisregistratie adressen en gebouwen opgenomen op basis van daartoe aangewezen brondocumenten, waarin het ontstaan van de standplaats als zodanig is vastgelegd. Daarnaast bevat de basisregistratie adressen en gebouwen alle geconstateerde standplaatsen in de zin van artikel 10, tweede lid, onderdeel b van de wet. De gegevens over standplaatsen blijven in de basisregistratie adressen en gebouwen aanwezig, ook indien de standplaats als zodanig wordt ingetrokken. De basisregistratie adressen en gebouwen bevat in principe geen gegevens over standplaatsen die voor 1 juli 2009 zijn ingetrokken. |
 | **Kwaliteit** | |
 | **Toelichting** | Zie paragraaf [[[#afbakening-van-standplaatsen]]] voor de interpretatie van de definitie van het objecttype Standplaats. |
-| **Indicatie abstract object** | Nee |
-[Tabel 6.7.a: Beschrijving van het objecttype Standplaats]
+| **Indicatie abstract object** | Nee \|
+
+_Tabel 6.7.a: Beschrijving van het objecttype Standplaats_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
@@ -214,8 +229,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.7.a) en benoemt de attributen
 | geometrie | \[1\] | Zie paragraaf [[[#geometrie-3]]] |
 | geconstateerd | \[1\] | Zie paragraaf [[[#geconstateerd-4]]] |
 | documentdatum | \[1\] | Zie paragraaf [[[#documentdatum-4]]] |
-| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-4]]] |
-[Tabel 6.7.b: Overzicht attributen]
+| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-4]]] \|
+
+_Tabel 6.7.b: Overzicht attributen_
 
 ## Verblijfsobject
 
@@ -233,8 +249,9 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.8.a) en benoemt de attributen
 | **Populatie** | De basisregistratie adressen en gebouwen omvat gegevens over alle verblijfsobjecten op het Nederlands grondgebied die voldoen aan bovenstaande objectdefinitie. Gegevens over een nieuw verblijfsobject worden in de basisregistratie adressen en gebouwen opgenomen bij verlening van de voor het realiseren van het verblijfsobject benodigde toestemming of het opmaken van een in artikel 10, onderdeel b van de wet genoemd document van constatering. De gegevens over verblijfsobjecten blijven in de basisregistratie adressen en gebouwen aanwezig, ook indien het verblijfsobject als zodanig niet meer aanwezig is. De basisregistratie adressen en gebouwen bevat in principe geen gegevens over verblijfsobjecten die op 1 juli 2009 niet meer als zodanig aanwezig waren. |
 | **Kwaliteit** | |
 | **Toelichting** | Zie paragraaf [[[#afbakening-van-verblijfsobjecten]]] voor de interpretatie van de definitie van het objecttype Verblijfsobject. |
-| **Indicatie abstract object** | Nee |
-[Tabel 6.8.a: Beschrijving van het objecttype Verblijfsobject]
+| **Indicatie abstract object** | Nee \|
+
+_Tabel 6.8.a: Beschrijving van het objecttype Verblijfsobject_
 
 | Attribuut | Kardinaliteit | Beschrijving |
 | :---: | :---: | :--- |
@@ -245,10 +262,12 @@ Deze paragraaf geeft een beschrijving (zie tabel 6.8.a) en benoemt de attributen
 | status | \[1\] | Zie paragraaf [[[#status-5]]] |
 | geconstateerd | \[1\] | Zie paragraaf [[[#geconstateerd-5]]] |
 | documentdatum | \[1\] | Zie paragraaf [[[#documentdatum-5]]] |
-| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-5]]] |
-[Tabel 6.8.b: Overzicht attributen]
+| documentnummer | \[1\] | Zie paragraaf [[[#documentnummer-5]]] \|
+
+_Tabel 6.8.b: Overzicht attributen_
 
 | Relatiesoort | Relatierol | Kardinaliteit | Beschrijving |
 | :---: | :---: | :---: | :--- |
-| maakt deel uit van | gerelateerd pand | \[1..\*\] | Zie paragraaf [[[#relatie-maakt-deel-uit-van-gerelateerd-pand]]] |
-[Tabel 6.8.c: Overzicht relaties]
+| maakt deel uit van | gerelateerd pand | \[1..\*\] | Zie paragraaf [[[#relatie-maakt-deel-uit-van-gerelateerd-pand]]] \|
+
+_Tabel 6.8.c: Overzicht relaties_

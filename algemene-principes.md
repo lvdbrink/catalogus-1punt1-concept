@@ -31,7 +31,7 @@ Deze paragraaf beschrijft algemene principes die gelden voor de inhoud van de BA
 
 De geometrie is een eigenschap van vijf van de zeven BAG-objecttypen. Deze geometrie betreft het loodrechte bovenaanzicht van het object met de ware vorm, afmeting en oriëntatie en positie ten opzichte van de aarde, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde.
 
-De geometrische representatie van de objecttypen in de BAG, waaronder de geldige geometrietypen, de geldige ruimtelijke dimensies van de geometrie en de geldige ruimtelijke dimensies van de coördinaten van de geometrie, is afhankelijk van het objecttype (zie tabel 3.3.1.a).
+De geometrische representatie van de objecttypen in de BAG, waaronder de geldige geometrietypen, de geldige ruimtelijke dimensies van de geometrie en de geldige ruimtelijke dimensies van de coördinaten van de geometrie, is afhankelijk van het objecttype (zie _$1_ 3.3.1.a).
 
 | Objecttype | Geometrietype | Dimensie van de geometrie | Dimensie van de coördinaten |
 | :---: | :---: | :---: | :---: |
@@ -42,7 +42,8 @@ De geometrische representatie van de objecttypen in de BAG, waaronder de geldige
 | Pand | Vlak | 2D | 2D of 3D |
 | Standplaats | Vlak | 2D | 2D |
 | Verblijfsobject | Punt of vlak | 0D of 2D | 2D of 3D |
-[Tabel 3.3.1.a: De geometrische representatie van de objecttypen in de BAG]
+
+_Tabel 3.3.1.a: De geometrische representatie van de objecttypen in de BAG_
 
 De geometrie van openbare ruimten is niet opgenomen in de BAG. De gemeente dient het bij het benoemen van nieuwe openbare ruimten alsmede bij het wijzigen van bestaande openbare ruimten een voldoende gedetailleerde omschrijving of grafische weergave op te nemen die de ligging van de buitenruimte op enigerlei wijze aanwijst. De ligging van openbare ruimten is dus wel opgenomen in het brondocument, maar niet in de BAG-registratie.
 
@@ -56,8 +57,9 @@ Voor de beschrijving van geometrieën geldt het ISO 19107 Spatial Schema. Voor d
 | :---: | :---: |
 | Punt | `GM_Point` |
 | Vlak | `GM_Surface` |
-| Multivlak | `GM_MultiSurface` |
-[Tabel 3.3.1.b: De geometrietypen in de BAG]
+| Multivlak | `GM_MultiSurface` \|
+
+_Tabel 3.3.1.b: De geometrietypen in de BAG_
 
 ### Gebruiksoppervlakte
 
@@ -93,8 +95,9 @@ Hiermee ontstaat een situatie dat er verschillende soorten relaties tussen pande
 | 1 | 1 | Een pand met één verblijfsobject. Dit is een veel voorkomende situatie bij bijvoorbeeld vrijstaande woningen en eengezinswoningen. |
 | 1 | _m_ | Een pand met meerdere verblijfsobjecten. Dit is een veel voorkomende situatie bij bijvoorbeeld flatgebouwen met portiekwoningen of galerijwoningen. |
 | _n_ | 1 | Een verblijfsobject dat zich uitstrekt over meerdere panden. Dit is een situatie die soms voorkomt bij bijvoorbeeld doorbraken van winkels tussen enkele panden. |
-| _n_ | _m_ | Meerdere verblijfsobjecten die zich uitstrekken over meerdere panden. |
-[Tabel 3.4.a: De mogelijke relaties tussen panden en verblijfsobjecten]
+| _n_ | _m_ | Meerdere verblijfsobjecten die zich uitstrekken over meerdere panden. \|
+
+_Tabel 3.4.a: De mogelijke relaties tussen panden en verblijfsobjecten_
 
 Uit deze relaties volgt ook de logische volgordelijkheid van het opvoeren van BAG-objecten in de registratie van een bronhouder:
 
@@ -204,8 +207,9 @@ Het eerste deel van het zestiencijferige objectnummer bestaat uit vier numerieke
 | `02` | Ligplaats |
 | `20` | Nummeraanduiding |
 | `03` | Standplaats |
-| `30` | Openbare ruimte |
-[Tabel 3.7.1.a: De objecttypecodes van de BAG]
+| `30` | Openbare ruimte \|
+
+_Tabel 3.7.1.a: De objecttypecodes van de BAG_
 
 Het derde deel van het zestiencijferige objectnummer bestaat uit tien numerieke posities met een binnen een gemeente uniek objectvolgnummer. Indien een objectvolgnummer uit minder dan tien posities bestaat dan dient deze ten behoeve van de uitwisseling te worden aangevuld met voorloopnullen.
 

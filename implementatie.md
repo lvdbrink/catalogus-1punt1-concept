@@ -113,8 +113,9 @@ Deze paragraaf geeft een samenvatting van de beschrijvingen in paragrafen [[[#ma
 | tijdstipRegistratie | \[1\] | DateTime | `jjjj-dd-mmTuu:mm:ss.sss` |
 | eindRegistratie | \[0..1\] | DateTime | `jjjj-dd-mmTuu:mm:ss.sss` |
 | tijdstipRegistratieLV | \[0..1\] | DateTime | `jjjj-dd-mmTuu:mm:ss.sss` |
-| tijdstipInactief | \[0..1\] | DateTime | `jjjj-dd-mmTuu:mm:ss.sss` |
-[Tabel 9.1.4.a: Overzicht implementatie historie BAG]
+| tijdstipInactief | \[0..1\] | DateTime | `jjjj-dd-mmTuu:mm:ss.sss` \|
+
+_Tabel 9.1.4.a: Overzicht implementatie historie BAG_
 
 ## In onderzoek
 
@@ -157,5 +158,6 @@ In hoofdstuk [[[#conceptueel-model]]] en hoofdstuk [[[#domeinwaarden]]] worden d
 | Ligplaats | identificatie | Combinatie van het (viercijferig) subdomein 'gemeentecode' (volgens Tabel 33 Gemeententabel van de Landelijke Tabellen GBA), het (tweecijferig) subdomein 'objecttypecode' en een voor het betreffende objecttype binnen een gemeente uniek (tiencijferig) subdomein 'objectvolgnummer' | `^[0-9]{4}[0-9]{2}[0-9]{10}$` |
 | Standplaats | identificatie | Combinatie van het (viercijferig) subdomein 'gemeentecode' (volgens Tabel 33 Gemeententabel van de Landelijke Tabellen GBA), het (tweecijferig) subdomein 'objecttypecode' en een voor het betreffende objecttype binnen een gemeente uniek (tiencijferig) subdomein 'objectvolgnummer' | `^[0-9]{4}[0-9]{2}[0-9]{10}$` |
 | Verblijfsobject | identificatie | Combinatie van het (viercijferig) subdomein 'gemeentecode' (volgens Tabel 33 Gemeententabel van de Landelijke Tabellen GBA), het (tweecijferig) subdomein 'objecttypecode' en een voor het betreffende objecttype binnen een gemeente uniek (tiencijferig) subdomein 'objectvolgnummer' | `^[0-9]{4}[0-9]{2}[0-9]{10}$` |
-| Verblijfsobject | oppervlakte | Een natuurlijk getal tussen 1 en 999999 | `^[1-9][0-9]{0,5}$` |
-[Tabel 9.3.a: Formele patronen]
+| Verblijfsobject | oppervlakte | Een natuurlijk getal tussen 1 en 999999 | `^[1-9][0-9]{0,5}$` \|
+
+_Tabel 9.3.a: Formele patronen_

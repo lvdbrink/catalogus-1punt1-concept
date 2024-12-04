@@ -8,14 +8,16 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Indic
 | :--- | :--- |
 | **Definitie** | Een aanduiding waarmee wordt aangegeven of een bepaalde indicatie al dan niet van toepassing is op een verschijningsvorm van een object in de registratie. |
 | **Datum opname** | Februari 2006 |
-| **Toelichting** | Voor enumeraties die deel uitmaken van een (basis-) registratie of informatiemodel betreft dit de daarin opgenomen toelichting. |
-[Tabel 8.1.a: Beschrijving van het domein Indicatie]
+| **Toelichting** | Voor enumeraties die deel uitmaken van een (basis-) registratie of informatiemodel betreft dit de daarin opgenomen toelichting. \|
+
+_Tabel 8.1.a: Beschrijving van het domein Indicatie_
 
 | Waarden | Omschrijving |
 | :---: | :---: |
 | `J` | Ja |
-| `N` | Nee |
-[Tabel 8.1.b: De geldige waarden van het domein Indicatie]
+| `N` | Nee \|
+
+_Tabel 8.1.b: De geldige waarden van het domein Indicatie_
 
 ## Gebruiksdoel
 
@@ -25,8 +27,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Gebru
 | :--- | :--- |
 | **Definitie** | Een categorisering waarmee het gebruiksdoel van een object kan worden verbijzonderd. |
 | **Datum opname** | Augustus 2004 |
-| **Toelichting** | Het waardenbereik van de categorisering van het gebruiksdoel van een object stemt overeen met het bepaalde in artikel 1 van het Bouwbesluit 2012. Het waardenbereik van het gegeven gebruiksdoel kent een limitatief karakter en kan uitsluitend een of meer van de genoemde waarden aannemen. |
-[Tabel 8.2.a: Beschrijving van het domein Gebruiksdoel]
+| **Toelichting** | Het waardenbereik van de categorisering van het gebruiksdoel van een object stemt overeen met het bepaalde in artikel 1 van het Bouwbesluit 2012. Het waardenbereik van het gegeven gebruiksdoel kent een limitatief karakter en kan uitsluitend een of meer van de genoemde waarden aannemen. \|
+
+_Tabel 8.2.a: Beschrijving van het domein Gebruiksdoel_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
@@ -40,8 +43,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Gebru
 | `onderwijsfunctie` | Gebruiksfunctie voor het geven van onderwijs |
 | `sportfunctie` | Gebruiksfunctie voor het beoefenen van sport |
 | `winkelfunctie` | Gebruiksfunctie voor het verhandelen van materialen, goederen of diensten |
-| `overige gebruiksfunctie` | Niet in dit lid benoemde gebruiksfunctie voor activiteiten waarbij het verblijven van personen een ondergeschikte rol speelt. |
-[Tabel 8.2.b: De geldige waarden van het domein Gebruiksdoel]
+| `overige gebruiksfunctie` | Niet in dit lid benoemde gebruiksfunctie voor activiteiten waarbij het verblijven van personen een ondergeschikte rol speelt. \|
+
+_Tabel 8.2.b: De geldige waarden van het domein Gebruiksdoel_
 
 ## StatusWoonplaats
 
@@ -51,14 +55,16 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | :--- | :--- |
 | **Definitie** | Een aanduiding van alle waarden die de status van een woonplaats kan aannemen. |
 | **Datum opname** | Februari 2006 |
-| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. |
-[Tabel 8.3.a: Beschrijving van het domein StatusWoonplaats]
+| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. \|
+
+_Tabel 8.3.a: Beschrijving van het domein StatusWoonplaats_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
 | `Woonplaats aangewezen` | Woonplaats is aangewezen door het bevoegd gezag of geconstateerd. |
-| `Woonplaats ingetrokken` | Woonplaats is ingetrokken door het bevoegd gezag. |
-[Tabel 8.3.b: De geldige waarden van het domein StatusWoonplaats]
+| `Woonplaats ingetrokken` | Woonplaats is ingetrokken door het bevoegd gezag. \|
+
+_Tabel 8.3.b: De geldige waarden van het domein StatusWoonplaats_
 
 ## StatusNaamgeving
 
@@ -68,14 +74,16 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | :--- | :--- |
 | **Definitie** | Een aanduiding van alle waarden die de status van een openbare ruimte of een nummeraanduiding kan aannemen. |
 | **Datum opname** | Februari 2006 |
-| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. |
-[Tabel 8.4.a: Beschrijving van het domein StatusNaamgeving]
+| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. \|
+
+_Tabel 8.4.a: Beschrijving van het domein StatusNaamgeving_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
 | `Naamgeving uitgegeven` | Naam is uitgegeven door het bevoegd gezag of geconstateerd. |
-| `Naamgeving ingetrokken` | Naam is ingetrokken door het bevoegd gezag. |
-[Tabel 8.4.b: De geldige waarden van het domein StatusNaamgeving]
+| `Naamgeving ingetrokken` | Naam is ingetrokken door het bevoegd gezag. \|
+
+_Tabel 8.4.b: De geldige waarden van het domein StatusNaamgeving_
 
 ## StatusPand
 
@@ -85,8 +93,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | :--- | :--- |
 | **Definitie** | Een codering van de verschillende waarden die de status van een pand kan aannemen. |
 | **Datum opname** | Februari 2004 |
-| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. |
-[Tabel 8.5.a: Beschrijving van het domein StatusPand]
+| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. \|
+
+_Tabel 8.5.a: Beschrijving van het domein StatusPand_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
@@ -99,8 +108,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | `Pand gesloopt` | Een pand waarvan de aanvrager van de sloopvergunning heeft gemeld dat de sloop is voltooid of in een ambtelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand is gesloopt. |
 | `Pand buiten gebruik` | Een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen. |
 | `Verbouwing pand` | Een pand waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid. |
-| `Pand ten onrechte opgevoerd` | Een pand dat niet had mogen worden opgenomen in de BAG-registratie en vervolgens is beëindigd. |
-[Tabel 8.5.b: De geldige waarden van het domein StatusPand]
+| `Pand ten onrechte opgevoerd` | Een pand dat niet had mogen worden opgenomen in de BAG-registratie en vervolgens is beëindigd. \|
+
+_Tabel 8.5.b: De geldige waarden van het domein StatusPand_
 
 ## StatusPlaats
 
@@ -110,14 +120,16 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | :--- | :--- |
 | **Definitie** | Een aanduiding van alle waarden die de status van een ligplaats en een standplaats kan aannemen. |
 | **Datum opname** | Februari 2006 |
-| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. |
-[Tabel 8.6.a: Beschrijving van het domein StatusPlaats]
+| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. \|
+
+_Tabel 8.6.a: Beschrijving van het domein StatusPlaats_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
 | `Plaats aangewezen` | Plaats is aangewezen door het bevoegd gezag of geconstateerd. |
-| `Plaats ingetrokken` | Plaats is ingetrokken door het bevoegd gezag. |
-[Tabel 8.6.b: De geldige waarden van het domein StatusPlaats]
+| `Plaats ingetrokken` | Plaats is ingetrokken door het bevoegd gezag. \|
+
+_Tabel 8.6.b: De geldige waarden van het domein StatusPlaats_
 
 ## StatusVerblijfsobject
 
@@ -127,8 +139,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | :--- | :--- |
 | **Definitie** | Een aanduiding van alle waarden die de status van een verblijfsobject kan aannemen. |
 | **Datum opname** | Augustus 2006 |
-| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. |
-[Tabel 8.7.a: Beschrijving van het domein StatusVerblijfsobject]
+| **Toelichting** | Een statusaanduiding kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. \|
+
+_Tabel 8.7.a: Beschrijving van het domein StatusVerblijfsobject_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
@@ -139,8 +152,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Statu
 | `Verblijfsobject ingetrokken` | Een verblijfsobject dat als zodanig opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een ambtelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject als zodanig niet meer bestaat. |
 | `Verblijfsobject buiten gebruik` | Een verblijfsobject dat onderdeel uitmaakt van een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen. |
 | `Verbouwing verblijfsobject` | Een verblijfsobject waarvoor een vergunning tot verbouw is verleend en waarbij de verbouwing nog niet is voltooid. |
-| `Verblijfsobject ten onrechte opgevoerd` | Een verblijfsobject dat niet had mogen worden opgenomen in de BAG-registratie en vervolgens is beëindigd. |
-[Tabel 8.7.b: De geldige waarden van het domein StatusVerblijfsobject]
+| `Verblijfsobject ten onrechte opgevoerd` | Een verblijfsobject dat niet had mogen worden opgenomen in de BAG-registratie en vervolgens is beëindigd. \|
+
+_Tabel 8.7.b: De geldige waarden van het domein StatusVerblijfsobject_
 
 ## TypeAdresseerbaarObject
 
@@ -150,15 +164,17 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeA
 | :--- | :--- |
 | **Definitie** | De aard van een als zodanig benoemde Nummeraanduiding. |
 | **Datum opname** | Oktober 2002 |
-| **Toelichting** | Een typering van de adresseerbare objecttypen kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. |
-[Tabel 8.8.a: Beschrijving van het domein TypeAdresseerbaarObject]
+| **Toelichting** | Een typering van de adresseerbare objecttypen kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. \|
+
+_Tabel 8.8.a: Beschrijving van het domein TypeAdresseerbaarObject_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
 | `Verblijfsobject` | Nummeraanduiding is bedoeld voor Verblijfsobject. |
 | `Standplaats` | Nummeraanduiding is bedoeld voor Standplaats. |
-| `Ligplaats` | Nummeraanduiding is bedoeld voor Ligplaats. |
-[Tabel 8.8.b: De geldige waarden van het domein TypeAdresseerbaarObject]
+| `Ligplaats` | Nummeraanduiding is bedoeld voor Ligplaats. \|
+
+_Tabel 8.8.b: De geldige waarden van het domein TypeAdresseerbaarObject_
 
 ## TypeOpenbareRuimte
 
@@ -168,8 +184,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeO
 | :--- | :--- |
 | **Definitie** | Een codering van de verschillende waarden die de typering van een openbare ruimte kan aannemen. |
 | **Datum opname** | Oktober 2002 |
-| **Toelichting** | Een typering van de openbare ruimten kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. De oorsprong van deze waarden is gelegen in NEN 3610. |
-[Tabel 8.9.a: Beschrijving van het domein TypeOpenbareRuimte]
+| **Toelichting** | Een typering van de openbare ruimten kent een limitatief karakter en kan uitsluitend een van de genoemde waarden aannemen. De oorsprong van deze waarden is gelegen in NEN 3610. \|
+
+_Tabel 8.9.a: Beschrijving van het domein TypeOpenbareRuimte_
 
 | Waarden | Omschrijving |
 | :---: | :--- |
@@ -179,8 +196,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein TypeO
 | `Terrein` | Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond _(bron: NEN 3610:2011/A1:2016 nl)_ |
 | `Kunstwerk` | Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. _(bron: NEN 3610:2011/A1:2016 nl)_ |
 | `Landschappelijk gebied` | Te verdelen in (NEN 3610): 'Geografisch gebied': geografisch benoemd of aangeduid gebied. De grenzen zijn niet altijd exact vastgesteld (bijvoorbeeld Noordoostpolder, Midden-Nederland, rivierengebied, Veluwe, Zuid-Limburg, kustgebied) en 'Functioneel gebied': begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark en recreatiegebied) _(bron: NEN 3610:2011/A1:2016 nl)_ |
-| `Administratief gebied` | Oftewel 'registratief gebied': op basis van wet- en regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering (bijvoorbeeld stadsdeel) _(bron: NEN 3610:2011/A1:2016 nl)_ |
-[Tabel 8.9.b: De geldige waarden van het domein TypeOpenbareRuimte]
+| `Administratief gebied` | Oftewel 'registratief gebied': op basis van wet- en regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering (bijvoorbeeld stadsdeel) _(bron: NEN 3610:2011/A1:2016 nl)_ \|
+
+_Tabel 8.9.b: De geldige waarden van het domein TypeOpenbareRuimte_
 
 ## Objecttypecode
 
@@ -190,8 +208,9 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Objec
 | :--- | :--- |
 | **Definitie** | Een code waarmee het objecttype van een object wordt aangegeven. |
 | **Datum opname** | Februari 2006 |
-| **Toelichting** | Deze codering maakt onderdeel uit van de unieke objectaanduiding. Het is met name bedoeld om objecten van verschillende adresseerbare objecttypen uniek van elkaar te kunnen onderscheiden. |
-[Tabel 8.10.a: Beschrijving van het domein Objecttypecode]
+| **Toelichting** | Deze codering maakt onderdeel uit van de unieke objectaanduiding. Het is met name bedoeld om objecten van verschillende adresseerbare objecttypen uniek van elkaar te kunnen onderscheiden. \|
+
+_Tabel 8.10.a: Beschrijving van het domein Objecttypecode_
 
 | Waarden | Omschrijving |
 | :---: | :---: |
@@ -200,5 +219,6 @@ Deze paragraaf geeft een beschrijving en de geldige waarden van het domein Objec
 | `03` | Standplaats |
 | `10` | Pand |
 | `20` | Nummeraanduiding |
-| `30` | Openbare ruimte |
-[Tabel 8.10.b: De geldige waarden van het domein Objecttypecode]
+| `30` | Openbare ruimte \|
+
+_Tabel 8.10.b: De geldige waarden van het domein Objecttypecode_

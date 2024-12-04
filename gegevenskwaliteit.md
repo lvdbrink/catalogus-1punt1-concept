@@ -91,8 +91,9 @@ Afhankelijk van welke status een pand heeft, heeft een pand een voorlopige (niet
 | :--- | :--- | :--- |
 | Status van het pand | `Bouwvergunning verleend`; `Niet gerealiseerd pand`; `Bouw gestart`; `Pand in gebruik (niet ingemeten)`; `Verbouwing pand` | `Pand in gebruik`; `Sloopvergunning verleend`; `Pand gesloopt`; `Pand buiten gebruik` |
 | Nauwkeurigheidseis | De relatieve puntprecisie bedraagt 300 cm (oftewel een afronding naar boven van de absolute puntprecisie van 200 cm) | De relatieve puntprecisie bedraagt 30 cm (oftewel een afronding naar boven van de absolute puntprecisie van 20 cm) |
-| Detailleringseis | Details die meer dan 100 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen | Details die meer dan 25 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen. Als er sprake is van overbouw, wordt de gevellijn van de overbouw ingemeten, mits de overbouw tenminste een verdieping hoog is en tenminste een meter uitsteekt ten opzichte van de gevel op maaiveldniveau |
-[Tabel 4.5.a: Verschillen tussen de kwaliteitseisen voor de voorlopige en de definitieve geometrie van een pand]
+| Detailleringseis | Details die meer dan 100 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen | Details die meer dan 25 cm afwijken van de doorgaande gevellijn, moeten worden opgenomen. Als er sprake is van overbouw, wordt de gevellijn van de overbouw ingemeten, mits de overbouw tenminste een verdieping hoog is en tenminste een meter uitsteekt ten opzichte van de gevel op maaiveldniveau \|
+
+_Tabel 4.5.a: Verschillen tussen de kwaliteitseisen voor de voorlopige en de definitieve geometrie van een pand_
 
 <aside class="note" title="relatieve puntprecisie">
 De mate waarin een meet- en verwerkingsproces bij herhaling dezelfde resultaten geeft, noemt men precisie. Als een hoge precisie wordt gehaald, betekent dit dat de mogelijke fout een kleine waarde heeft. Precisie is het resultaat van inwinning en verwerking. Dat betekent dat een hoge precisie bij de inwinning vaak 'verslechtert' door inpassing in een bestaand bestand. Zo zal een terrestische inwinning die is aangesloten op een fotogrammetrisch ingewonnen bestand, de precisie verkrijgen die geldt voor het bestaande, fotogrammetrisch ingewonnen bestand. Mede om deze reden worden vaak grotere mutaties (uitbreidingsgebieden), na controle op de betrouwbaarheid van de meting door analyse van een eerste fase vereffening, geplaatst binnen het bestaande bestand en niet daarop ingepast. Dit is ook bekend onder de term "dumpen".</aside>
@@ -137,8 +138,9 @@ Ten aanzien van de nauwkeurigheid van bouwjaren worden tolerantiegrenzen gehante
 | 1950 – 1991 | 2 jaar |
 | 1900 – 1949 | 5 jaar |
 | 1800 – 1899 | 10 jaar |
-| \< 1800 | 25 jaar |
-[Tabel 4.7.1.a: Toleranties voor de nauwkeurigheid van bouwjaren]
+| \< 1800 | 25 jaar \|
+
+_Tabel 4.7.1.a: Toleranties voor de nauwkeurigheid van bouwjaren_
 
 Hierbij wordt opgemerkt dat het in uitzonderlijke gevallen (vooral bij zeer oude panden) onmogelijk kan blijken te zijn om het bouwjaar binnen bovenstaande toleranties te bepalen. In die gevallen geldt "wat niet kan, kan niet" en wordt de beste schatting geregistreerd.
 
@@ -186,5 +188,6 @@ Voor ieder BAG-object geldt dat de authentieke gegevens m.u.v. de unieke aanduid
 | Pand | `geometrie`; `bouwjaar`; `status` |
 | Verblijfsobject | `geometrie`; `gebruiksdoel`; `oppervlakte`; `status`; `maakt onderdeel uit van gerelateerd pand`; `heeft als hoofdadres`; `heeft als nevenadres` |
 | Standplaats | `geometrie`; `status`; `heeft als hoofdadres`; `heeft als nevenadres` |
-| Ligplaats | `geometrie`; `status`; `heeft als hoofdadres`; `heeft als nevenadres` |
-[Tabel 4.8.a: De gegevens die per object in onderzoek kunnen worden geplaatst]
+| Ligplaats | `geometrie`; `status`; `heeft als hoofdadres`; `heeft als nevenadres` \|
+
+_Tabel 4.8.a: De gegevens die per object in onderzoek kunnen worden geplaatst_
